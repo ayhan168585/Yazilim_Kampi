@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj": {}
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj": {
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
+        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
         "projectName": "OzerGame",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
+        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
         "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\obj\\",
+        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

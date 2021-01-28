@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yMqtm0UsLVioINmLYBi+g2rnQzc6M4ota+l9FjBkqLrPYho1qTL38BuKqMhCkz6/F0iaC/0xX/bsjNh9ZYYNHw==",
+  "dgSpecHash": "s1lA80jfsKpZtuEFfF6ksJd6Fw3x4LF35e+LjUUvOEBDVNC3EZtxrWPfrAQufJFbI8cR3P54nACkR0TmK4W4pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj",
+  "projectFilePath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\InterfaceAbstractDemo\\InterfaceAbstractDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayhan\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ayhan\\.nuget\\packages\\system.net.http.winhttphandler\\4.4.0\\system.net.http.winhttphandler.4.4.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj": {}
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj": {
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj",
+        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj",
         "projectName": "Classes",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj",
+        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Classes\\Classes.csproj",
         "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Classes\\obj\\",
+        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Classes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

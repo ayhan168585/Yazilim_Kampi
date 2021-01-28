@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj": {}
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj": {
+    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj",
+        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj",
         "projectName": "Dictionary",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj",
+        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\Dictionary.csproj",
         "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\obj\\",
+        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\Dictionary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

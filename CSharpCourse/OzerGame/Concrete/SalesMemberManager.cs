@@ -8,21 +8,49 @@ namespace OzerGame.Concrete
 {
     public class SalesMemberManager:BaseSaleManager
     {
-        //Üye kontrolü üye işlemleri kısmında yapıldığından burada satış işlemleri sırasında ayrıca yapılmadı.
+        private IMemberCheckService _memberCheckService;
+
+        public SalesMemberManager(IMemberCheckService memberCheckService)
+        {
+            _memberCheckService = memberCheckService;
+        }
+
+        
         public override void Sale(Member member)
         {
-            
-            base.Sale(member);
+            if (_memberCheckService.CheckIfRealMember(member))
+            {
+                base.Sale(member);
+            }
+            else
+            {
+                Console.WriteLine("Bu gerçek bir kişi değil.");
+            }
+           
         }
 
         public override void SaleUpdate(Member member)
         {
-            base.SaleUpdate(member);
+            if (_memberCheckService.CheckIfRealMember(member))
+            {
+                base.SaleUpdate(member);
+            }
+            else
+            {
+                Console.WriteLine("Bu gerçek bir kişi değil.");
+            }
         }
 
         public override void SaleDelete(Member member)
         {
-            base.SaleDelete(member);
+            if (_memberCheckService.CheckIfRealMember(member))
+            {
+                base.SaleDelete(member);
+            }
+            else
+            {
+                Console.WriteLine("Bu gerçek bir kişi değil.");
+            }
         }
     }
 }

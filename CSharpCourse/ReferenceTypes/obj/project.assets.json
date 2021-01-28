@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\ReferenceTypes.csproj",
+      "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\ReferenceTypes.csproj",
       "projectName": "ReferenceTypes",
-      "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\ReferenceTypes.csproj",
+      "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\ReferenceTypes.csproj",
       "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\obj\\",
+      "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\ReferenceTypes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

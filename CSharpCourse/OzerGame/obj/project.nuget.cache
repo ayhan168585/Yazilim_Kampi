@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/T/RGYJZvQEf9xFUOMXVf+w7/0FDto202MCNtIUbif9v0mkbjR1Bh4/KhHO9nTZ0H4HwlRpn2AlkDOwxdbNbJg==",
+  "dgSpecHash": "Onzen8F/fPdCCbELnJQeguaweHJ1x4598aUyXHJX2LpC69JDC+c2hsiIxXkmGzv4QRzYC2mczqzhjtyjm2nUhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Masaüstü\\Yazilim_Kampi\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
+  "projectFilePath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\CSharpCourse\\OzerGame\\OzerGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayhan\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\ayhan\\.nuget\\packages\\system.net.http.winhttphandler\\4.4.0\\system.net.http.winhttphandler.4.4.0.nupkg.sha512",
