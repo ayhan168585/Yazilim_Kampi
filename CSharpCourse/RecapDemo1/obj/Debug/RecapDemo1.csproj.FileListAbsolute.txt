@@ -1,0 +1,20 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.exe.config
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.Form1.resources
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.Properties.Resources.resources
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csproj.GenerateResource.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.exe.config
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\bin\Debug\RecapDemo1.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.Form1.resources
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.Properties.Resources.resources
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csproj.GenerateResource.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\RecapDemo1\obj\Debug\RecapDemo1.pdb

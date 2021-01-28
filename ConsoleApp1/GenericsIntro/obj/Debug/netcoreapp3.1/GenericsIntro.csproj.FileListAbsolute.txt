@@ -1,0 +1,26 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\bin\Debug\netcoreapp3.1\GenericsIntro.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\GenericsIntro\obj\Debug\netcoreapp3.1\GenericsIntro.genruntimeconfig.cache

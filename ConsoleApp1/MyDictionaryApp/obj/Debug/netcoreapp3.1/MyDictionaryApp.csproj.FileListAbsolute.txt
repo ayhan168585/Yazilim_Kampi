@@ -1,0 +1,26 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\bin\Debug\netcoreapp3.1\MyDictionaryApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MyDictionaryApp\obj\Debug\netcoreapp3.1\MyDictionaryApp.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.genruntimeconfig.cache

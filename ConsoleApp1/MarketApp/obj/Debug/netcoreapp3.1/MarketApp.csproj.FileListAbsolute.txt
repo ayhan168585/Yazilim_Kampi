@@ -1,0 +1,26 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\bin\Debug\netcoreapp3.1\MarketApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\MarketApp\obj\Debug\netcoreapp3.1\MarketApp.genruntimeconfig.cache

@@ -1,0 +1,26 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\bin\Debug\netcoreapp3.1\ReferenceTypes.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\ReferenceTypes\obj\Debug\netcoreapp3.1\ReferenceTypes.genruntimeconfig.cache

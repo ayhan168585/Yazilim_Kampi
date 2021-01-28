@@ -1,0 +1,14 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfaces\obj\Debug\Interfaces.pdb

@@ -1,0 +1,13 @@
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.exe
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.deps.json
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.runtimeconfig.json
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.runtimeconfig.dev.json
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.dll
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\bin\Debug\netcoreapp3.1\ClassMethodDemo.pdb
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.csprojAssemblyReference.cache
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.AssemblyInfoInputs.cache
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.AssemblyInfo.cs
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.dll
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.pdb
+C:\Users\ayhan\source\repos\ConsoleApp1\Methods\obj\Debug\netcoreapp3.1\ClassMethodDemo.genruntimeconfig.cache

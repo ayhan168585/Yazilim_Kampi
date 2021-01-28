@@ -1,0 +1,25 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\bin\Debug\netcoreapp3.1\Koleksiyonlar.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\ConsoleApp1\Koleksiyonlar\obj\Debug\netcoreapp3.1\Koleksiyonlar.genruntimeconfig.cache

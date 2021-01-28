@@ -1,0 +1,26 @@
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.exe
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yaz Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\bin\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Constructors\obj\Debug\netcoreapp3.1\Constructors.genruntimeconfig.cache

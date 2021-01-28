@@ -1,0 +1,13 @@
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.exe
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\bin\Debug\netcoreapp3.1\Interfacess.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.dll
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.pdb
+C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\Interfacess\obj\Debug\netcoreapp3.1\Interfacess.genruntimeconfig.cache
