@@ -1,0 +1,13 @@
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\bin\Debug\netcoreapp3.1\YoutubeOCP.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\YoutubeOCP\obj\Debug\netcoreapp3.1\YoutubeOCP.genruntimeconfig.cache

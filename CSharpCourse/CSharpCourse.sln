@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfacess", "Interfacess\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{819A35E7-E5E2-45C5-B875-96DF563A987F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzerGame", "OzerGame\OzerGame.csproj", "{CF4AF89F-76FF-4987-9230-55F10AC035ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OzerGame", "OzerGame\OzerGame.csproj", "{CF4AF89F-76FF-4987-9230-55F10AC035ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeSRP", "YoutubeSRP\YoutubeSRP.csproj", "{7DA398EE-5AF8-4D8D-B976-D04D48B2CC6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeOCP", "YoutubeOCP\YoutubeOCP.csproj", "{FB7DED53-925C-46DD-ACBB-20051A5A16FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeISP", "YoutubeISP\YoutubeISP.csproj", "{00C95519-A0FD-4C9D-A0A8-B7BBBA926CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{CF4AF89F-76FF-4987-9230-55F10AC035ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF4AF89F-76FF-4987-9230-55F10AC035ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF4AF89F-76FF-4987-9230-55F10AC035ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA398EE-5AF8-4D8D-B976-D04D48B2CC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA398EE-5AF8-4D8D-B976-D04D48B2CC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA398EE-5AF8-4D8D-B976-D04D48B2CC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA398EE-5AF8-4D8D-B976-D04D48B2CC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7DED53-925C-46DD-ACBB-20051A5A16FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7DED53-925C-46DD-ACBB-20051A5A16FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7DED53-925C-46DD-ACBB-20051A5A16FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7DED53-925C-46DD-ACBB-20051A5A16FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C95519-A0FD-4C9D-A0A8-B7BBBA926CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C95519-A0FD-4C9D-A0A8-B7BBBA926CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C95519-A0FD-4C9D-A0A8-B7BBBA926CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C95519-A0FD-4C9D-A0A8-B7BBBA926CD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
