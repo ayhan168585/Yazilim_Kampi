@@ -1,0 +1,13 @@
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\bin\Debug\netcoreapp3.1\CleanCodeDemo.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CleanCodeDemo\obj\Debug\netcoreapp3.1\CleanCodeDemo.genruntimeconfig.cache
