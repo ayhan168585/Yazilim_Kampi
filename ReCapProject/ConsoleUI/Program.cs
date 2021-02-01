@@ -10,6 +10,12 @@ namespace ConsoleUI
         {
 
             CarManager carManager=new CarManager(new InMemoryCarDal());
+            BrandManager brandManager=new BrandManager(new InMemoryBrandDal());
+
+            foreach (var brand in brandManager.GetAll())
+            {
+                Console.WriteLine(brand.BrandName);   
+            }
             foreach (var car in carManager.GetAll())
             {
                 Console.WriteLine(car.BrandId);
