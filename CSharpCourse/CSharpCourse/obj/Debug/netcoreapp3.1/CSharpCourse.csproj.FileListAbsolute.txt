@@ -24,3 +24,16 @@ C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCou
 C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.dll
 C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.pdb
 C:\Users\ayhan\OneDrive\Desktop\Masaüstü\Yazilim_Kampi\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.genruntimeconfig.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.exe
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.deps.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.runtimeconfig.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.runtimeconfig.dev.json
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\bin\Debug\netcoreapp3.1\CSharpCourse.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.csprojAssemblyReference.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.AssemblyInfoInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.AssemblyInfo.cs
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.csproj.CoreCompileInputs.cache
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.dll
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.pdb
+C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CSharpCourse\CSharpCourse\obj\Debug\netcoreapp3.1\CSharpCourse.genruntimeconfig.cache
