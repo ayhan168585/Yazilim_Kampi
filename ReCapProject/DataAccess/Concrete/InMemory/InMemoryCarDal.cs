@@ -20,9 +20,9 @@ namespace DataAccess.Concrete.InMemory
                 new Car{Id = 3,BrandId = 2,ColorId = 1,DailyPrice = 170000,ModelYear = 2016,Description = "Sedan"},
             };
         }
-        public List<Car> GetAll(Brand brand)
+        public List<Car> GetAll()
         {
-            return _cars.Where(p=>p.BrandId==brand.Id).ToList();
+            return _cars;
         }
 
         public void GetById(Car car)
