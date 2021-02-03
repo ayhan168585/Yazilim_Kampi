@@ -35,5 +35,10 @@ namespace Business.Concrete
         {
             return _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max);
         }
+
+        public List<Product> GetByUnitsInStock(int min)
+        {
+            return _productDal.GetAll(p => p.UnitsInStock < min);
+        }
     }
 }
