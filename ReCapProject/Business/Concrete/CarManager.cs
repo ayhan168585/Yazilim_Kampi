@@ -4,6 +4,7 @@ using System.Text;
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace Business.Concrete
 {
@@ -21,5 +22,19 @@ namespace Business.Concrete
             return _carDal.GetAll();
         }
 
+        public List<Car> GetCarsByBrandId(int id)
+        {
+            return _carDal.GetAll(p => p.BrandId == id);
+        }
+
+        public List<Car> GetCarsByColorId(int id)
+        {
+            return _carDal.GetAll(p => p.ColorId == id);
+        }
+
+        public List<Car> GetCarsByDailyPrice(decimal fiyat)
+        {
+            return _carDal.GetAll(p => p.DailyPrice <= fiyat);
+        }
     }
 }
