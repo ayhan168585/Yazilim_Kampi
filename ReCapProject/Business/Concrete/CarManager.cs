@@ -20,5 +20,6 @@ namespace Business.Concrete
         {
             return _carDal.GetAll();
         }
+
     }
 }

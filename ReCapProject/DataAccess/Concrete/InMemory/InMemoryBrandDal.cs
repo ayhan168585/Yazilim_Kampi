@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -9,42 +10,29 @@ namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryBrandDal : IBrandDal
     {
-        private List<Brand> _brands;
-
-        public InMemoryBrandDal()
+        public List<Brand> GetAll(Expression<Func<Brand, bool>> filter = null)
         {
-            _brands = new List<Brand>
-            {
-                new Brand{Id = 1,BrandName = "Renault"},
-                new Brand{Id = 2,BrandName = "Wolkswagen"},
-                new Brand{Id = 3,BrandName = "Mercedes"},
-                new Brand{Id = 4,BrandName = "BMV"},
-            };
-        }
-        public List<Brand> GetAll()
-        {
-            return _brands;
+            throw new NotImplementedException();
         }
 
-        public void GetById(Brand brand)
+        public Brand Get(Expression<Func<Brand, bool>> filter)
         {
-            _brands.SingleOrDefault(p => p.Id == brand.Id);
+            throw new NotImplementedException();
         }
 
-        public void Add(Brand brand)
+        public void Add(Brand entity)
         {
-            _brands.Add(brand);
+            throw new NotImplementedException();
         }
 
-        public void Update(Brand brand)
+        public void Update(Brand entity)
         {
-            Brand brandUpdate = _brands.SingleOrDefault(p => p.Id == brand.Id);
-            brandUpdate.BrandName = brand.BrandName;
+            throw new NotImplementedException();
         }
 
-        public void Delete(Brand brand)
+        public void Delete(Brand entity)
         {
-            _brands.Remove(_brands.SingleOrDefault(p => p.Id == brand.Id));
+            throw new NotImplementedException();
         }
     }
 }

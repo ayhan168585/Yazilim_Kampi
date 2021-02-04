@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -9,45 +10,29 @@ namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryCarDal:ICarDal
     {
-        private List<Car> _cars;
-
-        public InMemoryCarDal()
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
-            _cars = new List<Car>
-            {
-                new Car{Id = 1,BrandId = 1,ColorId = 1,DailyPrice = 230000,ModelYear = 2020,Description = "Yeni Model"},
-                new Car{Id = 2,BrandId = 1,ColorId = 2,DailyPrice = 200000,ModelYear = 2019,Description = "Cabrio"},
-                new Car{Id = 3,BrandId = 2,ColorId = 1,DailyPrice = 170000,ModelYear = 2016,Description = "Sedan"},
-            };
-        }
-        public List<Car> GetAll()
-        {
-            return _cars;
+            throw new NotImplementedException();
         }
 
-        public void GetById(Car car)
+        public Car Get(Expression<Func<Car, bool>> filter)
         {
-            _cars.SingleOrDefault(p => p.Id == car.Id);
+            throw new NotImplementedException();
         }
 
-        public void Add(Car car)
+        public void Add(Car entity)
         {
-            _cars.Add(car);
+            throw new NotImplementedException();
         }
 
-        public void Update(Car car)
+        public void Update(Car entity)
         {
-            Car carUpdate = _cars.SingleOrDefault(p => p.Id == car.Id);
-            carUpdate.BrandId = car.BrandId;
-            carUpdate.ColorId = car.ColorId;
-            carUpdate.DailyPrice = car.DailyPrice;
-            carUpdate.ModelYear = car.ModelYear;
-            carUpdate.Description = car.Description;
+            throw new NotImplementedException();
         }
 
-        public void Delete(Car car)
+        public void Delete(Car entity)
         {
-            _cars.Remove(_cars.SingleOrDefault(p => p.Id == car.Id));
+            throw new NotImplementedException();
         }
     }
 }
