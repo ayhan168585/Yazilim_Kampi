@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lhPDgqU7bUhVLp5Qd2Gvt/81D5ARHPPZAOIgk90xfI9rUUDEE/SRegkZUBqkrfvWk5wViqqqH4Rtay3PtdYBSg==",
+  "dgSpecHash": "F9AgVLjXttHPS6wobzy+RJlszgSVpLEGLSl8kLIEqSsZbSmJjIUaJqeYEMQHoagQVnLNKzsoyw732DymudXyfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ayhan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ayhan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

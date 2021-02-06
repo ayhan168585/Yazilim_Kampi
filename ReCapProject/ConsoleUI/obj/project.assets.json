@@ -5704,19 +5704,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ayhan\\.nuget\\packages\\": {}
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
-      "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\obj\\",
+      "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5732,8 +5732,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj"
+            "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj"
             }
           }
         }

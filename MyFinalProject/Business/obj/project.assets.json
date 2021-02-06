@@ -1692,10 +1692,24 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1709,6 +1723,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6216,6 +6233,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -6235,19 +6257,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ayhan\\.nuget\\packages\\": {}
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\obj\\",
+      "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6263,11 +6285,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\MyFinalProject\\Entities\\Entities.csproj"
             }
           }
         }

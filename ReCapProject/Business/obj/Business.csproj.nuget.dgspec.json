@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {}
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,11 +30,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -70,17 +70,17 @@
         }
       }
     },
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,8 +96,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -137,17 +137,17 @@
         }
       }
     },
-    "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\ayhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayhan\\OneDrive\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
