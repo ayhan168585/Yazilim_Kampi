@@ -7,3 +7,15 @@ C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\nets
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete

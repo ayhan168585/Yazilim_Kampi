@@ -12,3 +12,19 @@ C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\nets
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\ayhan\OneDrive\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\Business\obj\Debug\netstandard2.0\Business.pdb
