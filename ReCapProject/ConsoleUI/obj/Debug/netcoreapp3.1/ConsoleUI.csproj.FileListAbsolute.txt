@@ -118,3 +118,5 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\obj\Debug\netc
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

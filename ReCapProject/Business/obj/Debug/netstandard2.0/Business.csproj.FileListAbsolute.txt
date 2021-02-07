@@ -26,3 +26,5 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\obj\Debug\netst
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
