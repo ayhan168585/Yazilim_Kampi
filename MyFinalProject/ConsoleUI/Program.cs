@@ -15,10 +15,20 @@ namespace ConsoleUI
             //ProductTest();
             //CategoryTest();
             ProductManager productManager=new ProductManager(new EfProductDal());
-            foreach (var product in productManager.GetProductDetails())
+
+            var result = productManager.GetProductDetails();
+            if (result.Success)
             {
-                Console.WriteLine(product.ProductName+"\t"+product.CategoryName);
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine(product.ProductName + "\t" + product.CategoryName);
+                }
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+           
 
 
         }
@@ -40,7 +50,7 @@ namespace ConsoleUI
             sayi = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("{0}'den az sayıda olan ürünler ", sayi);
             Console.WriteLine("------------------------------------------------- ");
-            foreach (var product in productManager.GetByUnitsInStock(sayi))
+            foreach (var product in productManager.GetByUnitsInStock(sayi).Data)
             {
                 Console.WriteLine("Ürün Adı : {0}\t Stok sayısı :{1} ", product.ProductName, product.UnitsInStock);
             }

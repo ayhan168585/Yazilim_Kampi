@@ -16,13 +16,25 @@ namespace ConsoleUI
             //BrandTest();
             //ColorTest();
             CarManager carManager=new CarManager(new EfCarDal());
-
+            var result = carManager.GetCarDetails();
+          
             Console.WriteLine("Kiralık Araçların Markası,Rengi,Modeli,Günlük Kirası,Açıklaması");
             Console.WriteLine("------------------------------------------------------------------------");
-            foreach (var car in carManager.GetCarDetails())
+            if (result.Success)
             {
-                Console.WriteLine(car.BrandName+" "+car.ColorName+" "+car.ModelYear+" "+car.DailyPrice+" "+car.Description);
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " + car.Description);
+
+                }
             }
+            else if (result.Success==false)
+            {
+                Console.WriteLine(result.Message);
+            }
+           
+
+            Console.WriteLine(carManager.GetCarDetails().Message);
         }
 
         private static void ColorTest()
@@ -35,7 +47,7 @@ namespace ConsoleUI
             //colorManager.Delete(new Color{Id = 1002});
             Console.WriteLine("Tüm Renk Listesi");
             Console.WriteLine("---------------------------------");
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.ColorName);
             }
@@ -43,7 +55,7 @@ namespace ConsoleUI
             Console.WriteLine("İstenen Renk");
             Console.WriteLine("---------------------------------");
            
-                Console.WriteLine(colorManager.GetById(2).ColorName);
+                Console.WriteLine(colorManager.GetById(2).Data.ColorName);
             
         }
 
@@ -57,14 +69,14 @@ namespace ConsoleUI
             //brandManager.Add(new Brand{BrandName = "Ferrari"});
             //brandManager.Update(new Brand{Id = 1002,BrandName = "Ferrari"});
             //brandManager.Delete(new Brand{Id = 1002});
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine(brand.BrandName);
             }
 
             Console.WriteLine("İstenen Marka");
             Console.WriteLine("-----------------------------------");
-            Console.WriteLine(brandManager.GetById(2).BrandName);
+            Console.WriteLine(brandManager.GetById(2).Data.BrandName);
           
         }
 
@@ -78,7 +90,7 @@ namespace ConsoleUI
             //carManager.Delete(new Car{Id = 5});
             Console.WriteLine("Tüm Araçların Açıklama Kısmı");
             Console.WriteLine("----------------------------------------------");
-            foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetAll().Data)
             {
                 Console.WriteLine(car.Description);
             }
@@ -87,13 +99,13 @@ namespace ConsoleUI
             Console.WriteLine("İstenen Açıklama Kısmı");
             Console.WriteLine("----------------------------------------------");
            
-                Console.WriteLine(carManager.GetById(2).Description);
+                Console.WriteLine(carManager.GetById(2).Data.Description);
             
 
             Console.WriteLine("----------------------------------------------");
             Console.WriteLine("İstenen renge göre Açıklama Kısmı");
             Console.WriteLine("----------------------------------------------");
-            foreach (var car in carManager.GetCarsByColorId(3))
+            foreach (var car in carManager.GetCarsByColorId(3).Data)
             {
                 Console.WriteLine(car.Description);
             }
@@ -101,7 +113,7 @@ namespace ConsoleUI
             Console.WriteLine("----------------------------------------------");
             Console.WriteLine("Günlük kirası 300 den düşük olanların açıklama kısmı");
             Console.WriteLine("----------------------------------------------");
-            foreach (var car in carManager.GetCarsByDailyPrice(300))
+            foreach (var car in carManager.GetCarsByDailyPrice(300).Data)
             {
                 Console.WriteLine(car.Description);
             }
