@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Business.Concrete;
+using Business.Constants;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -15,24 +16,83 @@ namespace ConsoleUI
             //CarTest();
             //BrandTest();
             //ColorTest();
-            CarManager carManager=new CarManager(new EfCarDal());
+            //CarJoinTest();
+            //UserTest();
+            //CustomerTest();
+
+            RentalManager rentalManager=new RentalManager(new RentalDal());
+            rentalManager.Add(new Rental {CarId = 3, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = DateTime.Now});
+            Console.WriteLine(Messages.RentalAdded);
+            Console.WriteLine("---------------------------------------------------");
+            var result = rentalManager.GetRentDetails();
+
+            if (result.Success)
+            {
+                foreach (var rental in result.Data)
+                {
+                    Console.WriteLine(rental.BrandName+" "+rental.CompanyName+" "+rental.RentDate+" "+rental.ReturnDate);
+                }
+
+                Console.WriteLine(Messages.RentalListed);
+                Console.WriteLine("------------------------------------------------");
+            }
+        }
+
+        private static void CustomerTest()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+
+
+            var result = customerManager.Add(new Customer { CompanyName = "Okmeydanı Hastanesi" });
+            if (result.Success)
+            {
+                Console.WriteLine(Messages.CustomerAdded);
+            }
+
+            foreach (var customer in customerManager.GetAll().Data)
+            {
+                Console.WriteLine(customer.CompanyName);
+            }
+        }
+
+        private static void UserTest()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+
+
+            var result = userManager.Add(new User
+            { FirstName = "Harun", LastName = "Özer", Email = "harun@hotmail.com", Password = "168585" });
+            if (result.Success)
+            {
+                Console.WriteLine(Messages.UserAdded);
+            }
+
+            foreach (var user in userManager.GetAll().Data)
+            {
+                Console.WriteLine(user.FirstName + " " + user.LastName + " " + user.Email + " " + user.Password);
+            }
+        }
+
+        private static void CarJoinTest()
+        {
+            CarManager carManager = new CarManager(new EfCarDal());
             var result = carManager.GetCarDetails();
-          
+
             Console.WriteLine("Kiralık Araçların Markası,Rengi,Modeli,Günlük Kirası,Açıklaması");
             Console.WriteLine("------------------------------------------------------------------------");
             if (result.Success)
             {
                 foreach (var car in result.Data)
                 {
-                    Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " + car.Description);
-
+                    Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " +
+                                      car.Description);
                 }
             }
-            else if (result.Success==false)
+            else if (result.Success == false)
             {
                 Console.WriteLine(result.Message);
             }
-           
+
 
             Console.WriteLine(carManager.GetCarDetails().Message);
         }
@@ -54,9 +114,9 @@ namespace ConsoleUI
 
             Console.WriteLine("İstenen Renk");
             Console.WriteLine("---------------------------------");
-           
-                Console.WriteLine(colorManager.GetById(2).Data.ColorName);
-            
+
+            Console.WriteLine(colorManager.GetById(2).Data.ColorName);
+
         }
 
         private static void BrandTest()
@@ -77,7 +137,7 @@ namespace ConsoleUI
             Console.WriteLine("İstenen Marka");
             Console.WriteLine("-----------------------------------");
             Console.WriteLine(brandManager.GetById(2).Data.BrandName);
-          
+
         }
 
         private static void CarTest()
@@ -98,9 +158,9 @@ namespace ConsoleUI
             Console.WriteLine("----------------------------------------------");
             Console.WriteLine("İstenen Açıklama Kısmı");
             Console.WriteLine("----------------------------------------------");
-           
-                Console.WriteLine(carManager.GetById(2).Data.Description);
-            
+
+            Console.WriteLine(carManager.GetById(2).Data.Description);
+
 
             Console.WriteLine("----------------------------------------------");
             Console.WriteLine("İstenen renge göre Açıklama Kısmı");

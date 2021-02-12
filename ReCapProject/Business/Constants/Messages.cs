@@ -28,6 +28,27 @@ namespace Business.Constants
         public static string BrandDetailListed = "Seçilen markanın detayı listelendi";
         public static string ColorListed = "Renkler listelendi";
         public static string ColorDetailListed = "Seçilen rengin detayı listelendi";
+        public static string UserListed = "Kullanıcılar listelendi";
+        public static string UserDetailListed = "Seçilen kullanıcının detayı listelendi";
+        public static string UserFirstNameInvalid = "Kullanıcı adı en az 2 karakter olmalıdır";
+        public static string UserLastNameInvalid = "Kullanıcı soyadı en az 2 karakter olmalıdır";
+        public static string UserPasswordInvalid = "Kullanıcı şifresi en az 4 karakter olmalıdır";
+        public static string UserEmailInvalid = "Geçersiz email adresi";
+        public static string UserAdded = "Yeni kullanıcı eklendi";
+        public static string UserUpdated = "kullanıcı güncellendi";
+        public static string UserDeleted = "kullanıcı silindi";
+        public static string CustomerListed = "Müsteriler listelendi";
+        public static string CustomerDetailListed = "Seçilen müsterinin detayı listelendi";
+        public static string CustomerCompanyNameInvalid = "Müsteri şirket adı en az 2 karakter olmalıdır";
+        public static string CustomerAdded = "Yeni müsteri eklendi";
+        public static string CustomerUpdated = "Müsteri güncellendi";
+        public static string CustomerDeleted = "Müsteri silindi";
+        public static string RentalListed = "Araç kiralamaları listelendi";
+        public static string GetRentDetail = "Seçilen kiralama detayı listelendi";
+        public static string RentalAdded = "Yeni kiralama işlemi eklendi";
+        public static string RentalUpdated = "Seçilen kiralama işlemi güncellendi";
+        public static string RentalDeleted = "Seçilen kiralama işlemi silindi";
+
 
 
     }

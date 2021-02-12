@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Entities.Abstract;
+using Core.Entities;
 
 namespace Core.DataAccess
 {
