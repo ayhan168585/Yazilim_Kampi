@@ -1,7 +1,7 @@
 ﻿using System;
 using Business.Concrete;
+using Business.Constants;
 using DataAccess.Concrete.EntityFramework;
-using Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -9,17 +9,32 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-           CarManager carManager=new CarManager(new EfCarDal());
-           carManager.Update(new Car{Id = 6,BrandId = 4,ColorId = 1,ModelYear = 1990,DailyPrice = 50,Description = "Antika"});
-           foreach (var car in carManager.GetCarDetails())
-           {
-               Console.WriteLine(car.Id+" "+car.BrandName+" "+car.ColorName+" "+car.ModelYear+" "+car.DailyPrice+" "+car.Description);
-           }
+            CarTest();
+            RentalManager rentalManager=new RentalManager(new EfRentalDal());
 
-           Console.WriteLine("-------------------------------------------------------");
-           Console.WriteLine(carManager.Get(2).Description);
-           ;
+            var result = rentalManager.GetRentalDetail();
+            foreach (var rental in result.Data)
+            {
+                Console.WriteLine(rental.CustomerName+" "+rental.BrandName+" "+rental.RentDate+" "+rental.ReturnDate);
+            }
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine(Messages.RentalListed);
+        }
 
+        private static void CarTest()
+        {
+            CarManager carManager = new CarManager(new EfCarDal());
+
+            var result = carManager.GetCarDetail();
+
+            foreach (var car in result.Data)
+            {
+                Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " +
+                                  car.Description);
+            }
+
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine(Messages.CarListed);
         }
     }
 }

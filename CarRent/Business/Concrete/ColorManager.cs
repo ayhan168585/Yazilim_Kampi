@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
 using System.Text;
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -17,29 +18,40 @@ namespace Business.Concrete
             _colorDal = colorDal;
         }
 
-        public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
+        public IDataResult<List<Color>> GetAll()
         {
-            return _colorDal.GetAll();
+            if (DateTime.Now.Hour==22)
+            {
+               return new ErrorDataResult<List<Color>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.ColorListed);
         }
 
-        public Color Get(int id)
+        public IDataResult<Color> Get(int id)
         {
-            return _colorDal.Get(p => p.Id == id);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<Color>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<Color>(_colorDal.Get(p=>p.Id==id),Messages.ColorDetailListed);
         }
 
-        public void Add(Color color)
+        public IResult Add(Color color)
         {
            _colorDal.Add(color);
+           return new SuccessResult(Messages.ColorAdded);
         }
 
-        public void Update(Color color)
+        public IResult Update(Color color)
         {
             _colorDal.Update(color);
+            return new SuccessResult(Messages.ColorUpdated);
         }
 
-        public void Delete(Color color)
+        public IResult Delete(Color color)
         {
             _colorDal.Delete(color);
+            return new SuccessResult(Messages.ColorDeleted);
         }
     }
 }

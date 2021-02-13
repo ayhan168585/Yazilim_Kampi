@@ -9,7 +9,6 @@
       "ConsoleUI/1.0.0": {
         "dependencies": {
           "Business": "1.0.0",
-          "Core": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0"
         },

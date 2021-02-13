@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
 using System.Text;
+using Core.Utilities.Results;
 using Entities.Concrete;
 using Entities.DTOs;
 
@@ -9,11 +9,11 @@ namespace Business.Abstract
 {
     public interface ICarService
     {
-        List<Car> GetAll(Expression<Func<Car, bool>> filter = null);
-        Car Get(int id);
-        void Add(Car car);
-        void Update(Car car);
-        void Delete(Car car);
-        List<CarDetailDto> GetCarDetails();
+        IDataResult<List<Car>> GetAll();
+        IDataResult<List<CarDetailDto>> GetCarDetail();
+        IDataResult<Car> Get(int id);
+        IResult Add(Car car);
+        IResult Update(Car car);
+        IResult Delete(Car car);
     }
 }

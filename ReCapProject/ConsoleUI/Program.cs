@@ -21,8 +21,8 @@ namespace ConsoleUI
             //CustomerTest();
 
             RentalManager rentalManager=new RentalManager(new RentalDal());
-            rentalManager.Add(new Rental {CarId = 3, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = DateTime.Now});
-            Console.WriteLine(Messages.RentalAdded);
+            //rentalManager.Add(new Rental {CarId = 3, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = DateTime.Now});
+            //Console.WriteLine(Messages.RentalAdded);
             Console.WriteLine("---------------------------------------------------");
             var result = rentalManager.GetRentDetails();
 

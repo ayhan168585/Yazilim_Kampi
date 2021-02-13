@@ -12,9 +12,15 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarTest();
-            BrandTest();
-            ColorTest();
+            //CarTest();
+            //BrandTest();
+            //ColorTest();
+            CarManager carManager=new CarManager(new EfCarDal());
+            var result = carManager.GetCarDetails();
+            foreach (var car in result.Data)
+            {
+                Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " + car.Description);
+            }
         }
 
         private static void ColorTest()
@@ -50,7 +56,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             Console.WriteLine("Kiralık Araçların Markası,Rengi,Modeli,Günlük Kirası,Açıklaması");
             Console.WriteLine("------------------------------------------------------------------------");
-            foreach (var car in carManager.GetCarDetails())
+            foreach (var car in carManager.GetCarDetails().Data)
             {
                 Console.WriteLine(car.BrandName + " " + car.ColorName + " " + car.ModelYear + " " + car.DailyPrice + " " + car.Description);
             }

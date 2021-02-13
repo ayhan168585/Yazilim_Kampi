@@ -5723,7 +5723,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Business >= 1.0.0",
-      "Core >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
@@ -5759,9 +5758,6 @@
           "projectReferences": {
             "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\Business\\Business.csproj": {
               "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\Business\\Business.csproj"
-            },
-            "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\Core\\Core.csproj"
             },
             "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\CarRent\\DataAccess\\DataAccess.csproj"

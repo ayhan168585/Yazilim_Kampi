@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
 using System.Text;
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 
 namespace Business.Concrete
 {
-   
     public class CarManager:ICarService
     {
         private ICarDal _carDal;
@@ -19,34 +19,49 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+        public IDataResult<List<Car>> GetAll()
         {
-            return _carDal.GetAll();
+            if (DateTime.Now.Hour==22)
+            {
+                return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime); 
+            }
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.CarListed);
         }
 
-        public Car Get(int id)
+        public IDataResult<List<CarDetailDto>> GetCarDetail()
         {
-            return _carDal.Get(p => p.Id == id);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<CarDetailDto>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetail(),Messages.CarListed);
         }
 
-        public void Add(Car car)
+        public IDataResult<Car> Get(int id)
         {
-            _carDal.Add(car);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<Car>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id),Messages.CarDetailListed);
         }
 
-        public void Update(Car car)
+        public IResult Add(Car car)
         {
-            _carDal.Update(car);
+           _carDal.Add(car);
+           return new SuccessResult(Messages.CarAdded);
         }
 
-        public void Delete(Car car)
+        public IResult Update(Car car)
         {
-           _carDal.Delete(car);
+           _carDal.Update(car);
+           return new SuccessResult(Messages.CarUpdated);
         }
 
-        public List<CarDetailDto> GetCarDetails()
+        public IResult Delete(Car car)
         {
-            return _carDal.GetCarDetails();
+            _carDal.Delete(car);
+            return new SuccessResult(Messages.CarDeleted);
         }
     }
 }
