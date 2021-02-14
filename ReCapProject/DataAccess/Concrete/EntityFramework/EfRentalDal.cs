@@ -10,7 +10,7 @@ using Entities.DTOs;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class RentalDal:EfEntityRepositoryBase<Rental,ReCapProjectContext>,IRentalDal
+    public class EfRentalDal:EfEntityRepositoryBase<Rental,ReCapProjectContext>,IRentalDal
     {
         public List<RentDetailDto> GetDetailRental()
         {

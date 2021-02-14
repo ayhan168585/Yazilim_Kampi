@@ -20,7 +20,7 @@ namespace ConsoleUI
             //UserTest();
             //CustomerTest();
 
-            RentalManager rentalManager=new RentalManager(new RentalDal());
+            RentalManager rentalManager=new RentalManager(new EfRentalDal());
             //rentalManager.Add(new Rental {CarId = 3, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = DateTime.Now});
             //Console.WriteLine(Messages.RentalAdded);
             Console.WriteLine("---------------------------------------------------");
