@@ -1,0 +1,8 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\bin\Debug\netstandard2.0\DevFramework.Northwind.Entities.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\bin\Debug\netstandard2.0\DevFramework.Northwind.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\bin\Debug\netstandard2.0\DevFramework.Northwind.Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\obj\Debug\netstandard2.0\DevFramework.Northwind.Entities.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\obj\Debug\netstandard2.0\DevFramework.Northwind.Entities.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\obj\Debug\netstandard2.0\DevFramework.Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\obj\Debug\netstandard2.0\DevFramework.Northwind.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Entities\obj\Debug\netstandard2.0\DevFramework.Northwind.Entities.pdb

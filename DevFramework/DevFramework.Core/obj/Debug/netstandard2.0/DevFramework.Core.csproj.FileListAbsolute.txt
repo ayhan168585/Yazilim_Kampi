@@ -1,0 +1,9 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\bin\Debug\netstandard2.0\DevFramework.Core.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\bin\Debug\netstandard2.0\DevFramework.Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\bin\Debug\netstandard2.0\DevFramework.Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Core\obj\Debug\netstandard2.0\DevFramework.Core.pdb
