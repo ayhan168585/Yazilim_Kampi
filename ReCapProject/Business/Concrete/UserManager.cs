@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -38,44 +40,14 @@ namespace Business.Concrete
 
         public IResult Add(User user)
         {
-            if (user.FirstName.Length<2)
-            {
-                return new ErrorResult(Messages.UserFirstNameInvalid);
-            }
-            else if (user.LastName.Length<2)
-            {
-                return new ErrorResult(Messages.UserLastNameInvalid);
-            }
-            else if (!user.Email.Contains("@"))
-            {
-                return new ErrorResult(Messages.UserEmailInvalid);
-            }
-            else if (user.Password.Length<4)
-            {
-                return new ErrorResult(Messages.UserPasswordInvalid);
-            }
+           ValidationTool.Validate(new UserValidator(), user);
             _userDal.Add(user);
             return new SuccessResult(Messages.UserAdded);
         }
 
         public IResult Update(User user)
         {
-            if (user.FirstName.Length < 2)
-            {
-                return new ErrorResult(Messages.UserFirstNameInvalid);
-            }
-            else if (user.LastName.Length < 2)
-            {
-                return new ErrorResult(Messages.UserLastNameInvalid);
-            }
-            else if (!user.Email.Contains("@"))
-            {
-                return new ErrorResult(Messages.UserEmailInvalid);
-            }
-            else if (user.Password.Length < 4)
-            {
-                return new ErrorResult(Messages.UserPasswordInvalid);
-            }
+            ValidationTool.Validate(new UserValidator(), user);
             _userDal.Update(user);
             return new SuccessResult(Messages.UserUpdated);
         }

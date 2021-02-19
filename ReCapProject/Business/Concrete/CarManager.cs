@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace Business.Concrete
 {
@@ -76,20 +81,15 @@ namespace Business.Concrete
 
         public IResult Add(Car car)
         {
-            if (car.ModelYear < 2015)
-            {
-                return new ErrorResult(Messages.CarModelInvalid);
-            }
+          
+            ValidationTool.Validate(new CarValidator(), car);
             _carDal.Add(car);
             return new SuccessResult(Messages.CarAdded);
         }
 
         public IResult Update(Car car)
         {
-            if (car.ModelYear < 2015)
-            {
-                return new ErrorResult(Messages.CarModelInvalid);
-            }
+            ValidationTool.Validate(new CarValidator(),car);
 
             _carDal.Update(car);
             return new SuccessResult(Messages.CarUpdated);
@@ -97,7 +97,7 @@ namespace Business.Concrete
 
         public IResult Delete(Car car)
         {
-           
+          
             _carDal.Delete(car);
             return new SuccessResult(Messages.CarDeleted);
         }

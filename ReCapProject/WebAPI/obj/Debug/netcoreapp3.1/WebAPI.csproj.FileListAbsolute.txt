@@ -70,3 +70,4 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll

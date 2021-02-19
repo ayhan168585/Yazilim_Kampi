@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QtJnTiF6Z+ATd25ePB7jyNUy4u+EV37jUpc8bVZOiNk2QTfFlP1WgjPZ8m3xIqB4gGZA6q6UAJ8T/dydSFoegw==",
+  "dgSpecHash": "FeNo2UycVLG5u3kCro6tCCvShDd+JAzkwdAjuZbIXlhA/hAN8bx4Lzy//wQrmXHwpO7uUeWOIFGADAo/aBAfCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
