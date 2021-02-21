@@ -1,0 +1,13 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\AbcDemo.Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\AbcDemo.Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\obj\Debug\AbcDemo.Business.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\obj\Debug\AbcDemo.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\obj\Debug\AbcDemo.Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\obj\Debug\AbcDemo.Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\AbcDemo.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\DataAccess.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\AbcDemo.Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\DataAccess.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\bin\Debug\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Business\obj\Debug\AbcDemo.Business.csproj.CopyComplete

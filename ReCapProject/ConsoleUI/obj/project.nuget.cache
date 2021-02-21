@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JYknAxYnl+hfU3ux0f27V/BW/Dn4uvUeymug010yBNeBXevgYwOcxUKLJ7c4dObzd1oVaoDHlePttuMtkVQ9GA==",
+  "dgSpecHash": "95RwYRKdytZiNQkzb9eV4Z5G9TbpGfDDd4Glu7l+riBeugMVTducef8rkPQmUSCIg7JOhRDQ+LADat5G9MgRJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",

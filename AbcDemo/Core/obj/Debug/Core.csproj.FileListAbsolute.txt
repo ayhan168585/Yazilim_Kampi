@@ -1,0 +1,11 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\bin\Debug\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\bin\Debug\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\bin\Debug\PostSharp.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\bin\Debug\PostSharp.xml
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\bin\Debug\Core.pssym
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\Core\obj\Debug\Core.dll.postsharp

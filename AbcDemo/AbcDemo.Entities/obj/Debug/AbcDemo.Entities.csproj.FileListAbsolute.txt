@@ -1,0 +1,11 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\AbcDemo.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\AbcDemo.Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\obj\Debug\AbcDemo.Entities.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\obj\Debug\AbcDemo.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\obj\Debug\AbcDemo.Entities.csproj.CopyComplete
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\obj\Debug\AbcDemo.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\obj\Debug\AbcDemo.Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\PostSharp.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\AbcDemo.Entities\bin\Debug\PostSharp.xml

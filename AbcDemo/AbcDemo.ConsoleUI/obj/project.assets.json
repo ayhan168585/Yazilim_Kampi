@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AbcDemo.Business/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "AbcDemo.DataAccess": "1.0.0",
+          "AbcDemo.Entities": "1.0.0",
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AbcDemo.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AbcDemo.Business.dll": {}
+        }
+      },
+      "AbcDemo.DataAccess/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "AbcDemo.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AbcDemo.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AbcDemo.DataAccess.dll": {}
+        }
+      },
+      "AbcDemo.Entities/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AbcDemo.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AbcDemo.Entities.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbcDemo.Business/1.0.0": {
+      "type": "project",
+      "path": "../AbcDemo.Business/AbcDemo.Business.csproj",
+      "msbuildProject": "../AbcDemo.Business/AbcDemo.Business.csproj"
+    },
+    "AbcDemo.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/AbcDemo.DataAccess.csproj",
+      "msbuildProject": "../DataAccess/AbcDemo.DataAccess.csproj"
+    },
+    "AbcDemo.Entities/1.0.0": {
+      "type": "project",
+      "path": "../AbcDemo.Entities/AbcDemo.Entities.csproj",
+      "msbuildProject": "../AbcDemo.Entities/AbcDemo.Entities.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AbcDemo.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj",
+      "projectName": "AbcDemo.ConsoleUI",
+      "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj": {
+              "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

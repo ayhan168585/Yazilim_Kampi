@@ -1,0 +1,13 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.exe
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.runtimeconfig.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.runtimeconfig.dev.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\bin\Debug\netcoreapp3.1\Reflections.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Reflections\obj\Debug\netcoreapp3.1\Reflections.genruntimeconfig.cache

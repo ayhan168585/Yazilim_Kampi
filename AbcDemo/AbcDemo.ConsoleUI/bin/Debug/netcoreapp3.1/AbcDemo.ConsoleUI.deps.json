@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AbcDemo.ConsoleUI/1.0.0": {
+        "dependencies": {
+          "AbcDemo.Business": "1.0.0"
+        },
+        "runtime": {
+          "AbcDemo.ConsoleUI.dll": {}
+        }
+      },
+      "AbcDemo.Business/1.0.0": {
+        "dependencies": {
+          "AbcDemo.DataAccess": "1.0.0",
+          "AbcDemo.Entities": "1.0.0",
+          "Core": "1.0.0"
+        },
+        "runtime": {
+          "AbcDemo.Business.dll": {}
+        }
+      },
+      "AbcDemo.DataAccess/1.0.0": {
+        "dependencies": {
+          "AbcDemo.Entities": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "AbcDemo.Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "runtime": {
+          "AbcDemo.Entities.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "runtime": {
+          "Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbcDemo.ConsoleUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AbcDemo.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AbcDemo.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AbcDemo.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

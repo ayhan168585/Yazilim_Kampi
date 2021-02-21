@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj",
+        "projectName": "AbcDemo.Business",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj"
+              },
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\DataAccess\\AbcDemo.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\DataAccess\\AbcDemo.DataAccess.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj",
+        "projectName": "AbcDemo.ConsoleUI",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\AbcDemo.ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\Ayhan Özer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ayhan Özer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Business\\AbcDemo.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj",
+        "projectName": "AbcDemo.Entities",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\Core\\Core.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\DataAccess\\AbcDemo.DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\DataAccess\\AbcDemo.DataAccess.csproj",
+        "projectName": "AbcDemo.DataAccess",
+        "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\DataAccess\\AbcDemo.DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\AbcDemo\\AbcDemo.Entities\\AbcDemo.Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

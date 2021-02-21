@@ -1,0 +1,13 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\obj\Debug\AbcDemo.DataAccess.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\obj\Debug\AbcDemo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\AbcDemo.Entities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\Core.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\AbcDemo.Entities.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\Core.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\obj\Debug\AbcDemo.DataAccess.csproj.CopyComplete
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\PostSharp.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\AbcDemo\DataAccess\bin\Debug\PostSharp.xml

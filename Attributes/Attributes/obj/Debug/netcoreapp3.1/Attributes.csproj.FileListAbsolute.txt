@@ -1,0 +1,13 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.AssemblyInfoInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.AssemblyInfo.cs
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.exe
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.deps.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.runtimeconfig.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.runtimeconfig.dev.json
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\bin\Debug\netcoreapp3.1\Attributes.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Attributes\Attributes\obj\Debug\netcoreapp3.1\Attributes.genruntimeconfig.cache
