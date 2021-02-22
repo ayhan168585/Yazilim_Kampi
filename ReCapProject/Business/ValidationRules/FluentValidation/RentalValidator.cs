@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Business.Constants;
 using Entities.Concrete;
 using FluentValidation;
 
@@ -13,7 +14,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(p => p.CarId).NotEmpty();
             RuleFor(p => p.CustomerId).NotEmpty();
             RuleFor(p => p.RentDate).NotEmpty();
-            RuleFor(p => p.ReturnDate).NotEmpty();
+            RuleFor(p => p.ReturnDate).Empty().WithMessage(Messages.RentalNotValid);
         }
     }
 }

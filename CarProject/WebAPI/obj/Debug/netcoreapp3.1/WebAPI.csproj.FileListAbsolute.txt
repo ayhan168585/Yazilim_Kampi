@@ -70,3 +70,4 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\WebAPI\obj\Debug\netcoreap
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\CarProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll

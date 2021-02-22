@@ -31,7 +31,7 @@ namespace ConsoleUI
             //colorManager.Delete(new Color {Id = 1003});
             Console.WriteLine("Tüm Renklerin Listesi");
             Console.WriteLine("------------------------------------------------------------------------");
-            foreach (var color in colorManager.GetAll())
+            foreach (var color in colorManager.GetAll().Data)
             {
                 Console.WriteLine(color.Id + " " + color.ColorName);
             }
@@ -45,7 +45,7 @@ namespace ConsoleUI
             //brandManager.Delete(new Brand {Id = 1005});
             Console.WriteLine("Tüm Markaların Listesi");
             Console.WriteLine("------------------------------------------------------------------------");
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine(brand.Id + " " + brand.BrandName);
             }
