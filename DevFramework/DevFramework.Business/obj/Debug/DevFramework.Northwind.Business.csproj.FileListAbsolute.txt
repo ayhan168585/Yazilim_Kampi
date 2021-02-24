@@ -1,0 +1,6 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\bin\Debug\DevFramework.Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\bin\Debug\DevFramework.Business.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\obj\Debug\DevFramework.Northwind.Business.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\obj\Debug\DevFramework.Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\obj\Debug\DevFramework.Business.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Business\obj\Debug\DevFramework.Business.pdb

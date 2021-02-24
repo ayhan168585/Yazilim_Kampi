@@ -14,7 +14,7 @@ namespace ConsoleUI
             //Data Transformastion Object
             //ProductTest();
             //CategoryTest();
-            ProductManager productManager=new ProductManager(new EfProductDal());
+            ProductManager productManager=new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
 
             var result = productManager.GetProductDetails();
             if (result.Success)
@@ -36,7 +36,7 @@ namespace ConsoleUI
         private static void CategoryTest()
         {
             CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
-            foreach (var category in categoryManager.GetAll())
+            foreach (var category in categoryManager.GetAll().Data)
             {
                 Console.WriteLine(category.CategoryName);
             }
@@ -45,7 +45,7 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             int sayi;
-            ProductManager productManager = new ProductManager(new EfProductDal());
+            ProductManager productManager = new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
             Console.WriteLine("Stokta kaçtan az olan ürünleri görmek istiyorsunuz. :");
             sayi = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("{0}'den az sayıda olan ürünler ", sayi);

@@ -1,0 +1,14 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\DevFramework.Northwind.Business.Tests.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\DevFramework.Northwind.Business.Tests.pdb
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csprojAssemblyReference.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csproj.CopyComplete
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.pdb
