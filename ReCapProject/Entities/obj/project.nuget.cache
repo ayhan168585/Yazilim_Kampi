@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lp6XFKrgQwNFWgYlMU1HH/4qbbDULt2hIDh3tbJJmDsFImx1oItTWqDqJ5qsclk75g2DTj68DUycjpg0fw0T6w==",
+  "dgSpecHash": "weyxEoMjFje8Nou8PotU9S3rwOdAE6dmbfGJS3QBJxUw1oWDBGN5ldXOBaApLxLAIksex3pEauZ9cI0o1n7PZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ayhan Özer\\Desktop\\Yazilim_Kampi\\ReCapProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Ayhan Özer\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

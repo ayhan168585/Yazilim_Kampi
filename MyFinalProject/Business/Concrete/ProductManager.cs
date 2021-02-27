@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -121,7 +122,7 @@ namespace Business.Concrete
         private IResult CheckIfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll();
-            if (result.Data.Count>15)
+            if (result.Data.Count>7)
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
