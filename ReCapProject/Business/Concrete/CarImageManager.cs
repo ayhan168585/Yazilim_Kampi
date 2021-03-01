@@ -5,19 +5,26 @@ using System.Text;
 using Business.Abstract;
 using Business.Constants;
 using Core.Utilities.Business;
+using Core.Utilities.Helpers;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Http;
 
 namespace Business.Concrete
 {
     public class CarImageManager:ICarImageService
     {
         private ICarImageDal _carImageDal;
+        private ICarService _carService;
+        string imagePath = @"..\WebAPI\Images\Cars\";
+        string[] imageExtensions = { ".jpg", ".jpeg", ".png", ".bmp" };
 
-        public CarImageManager(ICarImageDal carImageDal)
+        public CarImageManager(ICarImageDal carImageDal, ICarService carService)
         {
             _carImageDal = carImageDal;
+            _carService = carService;
+           
         }
 
         public IDataResult<List<CarImage>> GetAll()
@@ -38,9 +45,11 @@ namespace Business.Concrete
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId).ToList(),Messages.CarImageDetailListed);
         }
 
-        public IResult Add(CarImage carImage)
+        public IResult Add(CarImage carImage,IFormFile file)
         {
-            IResult result = BusinessRules.Run(CheckIfCarImageLimitExceded(carImage));
+            carImage.ImagePath = imagePath + FileHelper.CreateFileName(file, 20);
+            carImage.Date=DateTime.Now;
+            IResult result = BusinessRules.Run(CheckIfCarImageLimitExceded(carImage),FileHelper.CheckIfFileType(file,imageExtensions),FileHelper.Add(carImage.ImagePath,file));
             if (result!=null)
             {
                 return result;
@@ -50,7 +59,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarImageAdded);
         }
 
-        public IResult Update(CarImage carImage)
+        public IResult Update(CarImage carImage,IFormFile file)
         {
             IResult result = BusinessRules.Run(CheckIfCarImageLimitExceded(carImage));
             if (result != null)

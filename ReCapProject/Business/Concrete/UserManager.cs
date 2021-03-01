@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Business.Abstract;
 using Business.Constants;
@@ -19,6 +20,24 @@ namespace Business.Concrete
         public UserManager(IUserDal userDal)
         {
             _userDal = userDal;
+        }
+
+        public IDataResult<List<OperationClaim>> GetClaims(User user)
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<OperationClaim>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<OperationClaim>>(_userDal.GetClaims(user),Messages.UserOperationClaimsListed);
+        }
+
+        public IDataResult<User> GetByMail(string email)
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<User>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<User>(_userDal.Get(p=>p.Email==email),Messages.UserListedByEmail);
         }
 
         public IDataResult<List<User>> GetAll()

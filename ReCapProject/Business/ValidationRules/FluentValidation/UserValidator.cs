@@ -20,9 +20,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(p => p.Email).MinimumLength(2);
             RuleFor(p => p.Email).MaximumLength(50);
             RuleFor(p => p.Email).EmailAddress();
-            RuleFor(p => p.Password).NotEmpty();
-            RuleFor(p => p.Password).MinimumLength(4);
-            RuleFor(p => p.Password).MaximumLength(20);
+           
             
         }
     }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Hosting;
 
 namespace WebAPI.Controllers
 {
@@ -16,10 +17,13 @@ namespace WebAPI.Controllers
     public class CarImagesController : ControllerBase
     {
         private ICarImageService _carImageService;
+       
+        
 
-        public CarImagesController(ICarImageService carImageService)
+        public CarImagesController(ICarImageService carImageService, IWebHostEnvironment webHostEnvironment)
         {
             _carImageService = carImageService;
+           
         }
 
         [HttpGet("getall")]
@@ -47,22 +51,22 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(CarImage carImage)
+        public  IActionResult Add([FromForm]CarImage carImage,[FromForm] IFormFile file)
         {
-          
-            var result = _carImageService.Add(carImage);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-
-            return BadRequest(result.Message);
+               
+                var result = _carImageService.Add(carImage,file);
+                if (result.Success)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(result.Message);
+            
         }
         
         [HttpPost("update")]
-        public IActionResult Update(CarImage carImage)
+        public IActionResult Update([FromForm]CarImage carImage,[FromForm] IFormFile file)
         {
-            var result = _carImageService.Update(carImage);
+            var result = _carImageService.Update(carImage,file);
             if (result.Success)
             {
                 return Ok(result);
@@ -81,6 +85,7 @@ namespace WebAPI.Controllers
 
             return BadRequest(result.Message);
         }
+        
 
 
     }

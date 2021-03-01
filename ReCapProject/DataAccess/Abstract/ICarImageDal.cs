@@ -8,6 +8,6 @@ namespace DataAccess.Abstract
 {
     public interface ICarImageDal:IEntityRepository<CarImage>
     {
-        void AddImage(CarImage carImage);
+       
     }
 }
