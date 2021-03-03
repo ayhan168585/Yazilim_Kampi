@@ -71,3 +71,4 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

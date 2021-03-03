@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Business.Concrete;
 using Business.Constants;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -55,23 +56,23 @@ namespace ConsoleUI
             }
         }
 
-        private static void UserTest()
-        {
-            UserManager userManager = new UserManager(new EfUserDal());
+        //private static void UserTest()
+        //{
+        //    UserManager userManager = new UserManager(new EfUserDal());
 
 
-            var result = userManager.Add(new User
-            { FirstName = "Harun", LastName = "Özer", Email = "harun@hotmail.com", Password = "168585" });
-            if (result.Success)
-            {
-                Console.WriteLine(Messages.UserAdded);
-            }
+        //    var result = userManager.Add(new User
+        //    { FirstName = "Harun", LastName = "Özer", Email = "harun@hotmail.com", Password = "168585" });
+        //    if (result.Success)
+        //    {
+        //        Console.WriteLine(Messages.UserAdded);
+        //    }
 
-            foreach (var user in userManager.GetAll().Data)
-            {
-                Console.WriteLine(user.FirstName + " " + user.LastName + " " + user.Email + " " + user.Password);
-            }
-        }
+        //    foreach (var user in userManager.GetAll().Data)
+        //    {
+        //        Console.WriteLine(user.FirstName + " " + user.LastName + " " + user.Email + " " + user.Password);
+        //    }
+        //}
 
         private static void CarJoinTest()
         {

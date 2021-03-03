@@ -38,6 +38,11 @@ namespace WebAPI
             //AOP
             //Postsharp
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://localhost:3000"));
+            });
             //services.AddSingleton<IProductService,ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();
 
@@ -73,6 +78,7 @@ namespace WebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

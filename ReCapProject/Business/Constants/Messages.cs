@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Core.Entities.Concrete;
 
 namespace Business.Constants
 {
@@ -61,5 +62,12 @@ namespace Business.Constants
         public static string CarImageDeleted = "Araç resmi silindi";
         public static string UserOperationClaimsListed = "Kullanıcı rolleri listelendi";
         public static string UserListedByEmail = "Seçilen Email'in sahibi olan kullanıcı detayı listelendi";
+        public static string CarImageInvalid = "Geçersiz araba resmi";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Hatalı şifre";
+        public static string SuccesfulLogin = "Giriş başarılı";
+        public static string UserAlreadyExists = "Sistemde bu kullanıcı zaten mevcut";
+        public static string UserRegistered = "Kullanıcı kaydedildi";
+        public static string CreatedAccessToken = "Access token başarıyla oluşturuldu";
     }
 }
