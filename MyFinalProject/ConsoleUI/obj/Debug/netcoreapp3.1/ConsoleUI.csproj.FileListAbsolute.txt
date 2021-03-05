@@ -127,3 +127,7 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\obj\Debug\ne
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll

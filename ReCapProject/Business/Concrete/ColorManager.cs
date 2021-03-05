@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Business;
@@ -23,24 +26,30 @@ namespace Business.Concrete
             _colorDal = colorDal;
         }
 
+        [CacheAspect]
         public IDataResult<List<Color>> GetAll()
         {
-            if (DateTime.Now.Hour==22)
+            if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<List<Color>>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.ColorListed);
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(), Messages.ColorListed);
         }
 
+        [CacheAspect]
         public IDataResult<Color> GetById(int id)
         {
             if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult<Color>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<Color>(_colorDal.Get(p => p.Id == id),Messages.ColorDetailListed);
+            return new SuccessDataResult<Color>(_colorDal.Get(p => p.Id == id), Messages.ColorDetailListed);
         }
 
+
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IColorService.Get")]
+        [TransactionScopeAspect]
         [ValidationAspect(typeof(ColorValidator))]
         public IResult Add(Color color)
         {
@@ -53,6 +62,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ColorAdded);
         }
 
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IColorService.Get")]
+        [TransactionScopeAspect]
         [ValidationAspect(typeof(ColorValidator))]
         public IResult Update(Color color)
         {
@@ -65,6 +77,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ColorUpdated);
         }
 
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IColorService.Get")]
+        [TransactionScopeAspect]
         public IResult Delete(Color color)
         {
             _colorDal.Delete(color);

@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Business;
@@ -27,6 +31,8 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        [CacheAspect]
+      
         public IDataResult<List<Car>> GetAll()
         {
             if (DateTime.Now.Hour == 22)
@@ -36,6 +42,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarListed);
         }
 
+        [CacheAspect]
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
             if (DateTime.Now.Hour == 22)
@@ -45,6 +52,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(), Messages.CarListed);
         }
 
+        [CacheAspect]
         public IDataResult<Car> GetById(int id)
         {
             if (DateTime.Now.Hour == 22)
@@ -53,7 +61,7 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id), Messages.CarDetailListed);
         }
-
+        [CacheAspect]
         public IDataResult<List<Car>> GetCarsByBrandId(int id)
         {
             if (DateTime.Now.Hour == 22)
@@ -63,6 +71,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.BrandId == id), Messages.CarListedByBrand);
         }
 
+        [CacheAspect]
         public IDataResult<List<Car>> GetCarsByColorId(int id)
         {
             if (DateTime.Now.Hour == 22)
@@ -72,6 +81,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.ColorId == id), Messages.CarListedByColor);
         }
 
+        [CacheAspect]
         public IDataResult<List<Car>> GetCarsByDailyPrice(decimal fiyat)
         {
             if (DateTime.Now.Hour == 22)
@@ -80,8 +90,10 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.DailyPrice <= fiyat), Messages.CarListedByDailyPrice);
         }
-
+        [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("ICarService.Get")]
+        [TransactionScopeAspect]
         public IResult Add(Car car)
         {
             IResult result=BusinessRules.Run(CheckIfCarOfBrandCorrect(car.BrandId),CheckIfCarCountLimitExceded());
@@ -93,7 +105,10 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarAdded);
         }
 
+        [SecuredOperation("car.update,admin")]
         [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("ICarService.Get")]
+        [TransactionScopeAspect]
         public IResult Update(Car car)
         {
             IResult result = BusinessRules.Run(CheckIfCarOfBrandCorrect(car.BrandId));
@@ -106,6 +121,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarUpdated);
         }
 
+        [SecuredOperation("car.delete,admin")]
+        [CacheRemoveAspect("ICarService.Get")]
+        [TransactionScopeAspect]
         public IResult Delete(Car car)
         {
 

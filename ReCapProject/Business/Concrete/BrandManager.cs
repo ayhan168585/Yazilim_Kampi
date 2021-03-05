@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Business;
@@ -25,6 +28,7 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
+        [CacheAspect]
         public IDataResult<List<Brand>> GetAll()
         {
             if (DateTime.Now.Hour == 22)
@@ -34,6 +38,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(), Messages.BrandListed);
         }
 
+        [CacheAspect]
         public IDataResult<Brand> GetById(int id)
         {
             if (DateTime.Now.Hour == 22)
@@ -43,7 +48,10 @@ namespace Business.Concrete
             return new SuccessDataResult<Brand>(_brandDal.Get(p => p.Id == id), Messages.BrandDetailListed);
         }
 
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IBrandService.Get")]
         [ValidationAspect(typeof(BrandValidator))]
+        [TransactionScopeAspect]
         public IResult Add(Brand brand)
         {
             IResult result = BusinessRules.Run(CheckIfBrandNameExist(brand.BrandName));
@@ -54,7 +62,9 @@ namespace Business.Concrete
             _brandDal.Add(brand);
             return new SuccessResult(Messages.BrandAdded);
         }
-
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IBrandService.Get")]
+        [TransactionScopeAspect]
         [ValidationAspect(typeof(BrandValidator))]
         public IResult Update(Brand brand)
         {
@@ -67,6 +77,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.BrandUpdated);
         }
 
+        [SecuredOperation("admin")]
+        [CacheRemoveAspect("IBrandService.Get")]
+        [TransactionScopeAspect]
         public IResult Delete(Brand brand)
         {
 

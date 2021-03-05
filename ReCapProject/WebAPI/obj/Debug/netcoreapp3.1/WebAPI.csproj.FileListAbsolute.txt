@@ -1,3 +1,4 @@
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
@@ -11,6 +12,8 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -40,12 +43,12 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
@@ -71,4 +74,3 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
-C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

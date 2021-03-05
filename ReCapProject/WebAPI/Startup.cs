@@ -1,3 +1,5 @@
+using Core.DependencyResolvers;
+using Core.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +9,7 @@ using Core.Utilities.IoC;
 using Core.Utilities.Security.Encyription;
 using Core.Utilities.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
 
 namespace WebAPI
@@ -24,6 +27,8 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowOrigin",
@@ -44,19 +49,11 @@ namespace WebAPI
                     IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                 };
             });
-            ServiceTool.Create(services);
-            //services.AddSingleton<ICarService, CarManager>();
-            //services.AddSingleton<ICarDal, EfCarDal>();
-            //services.AddSingleton<IBrandService, BrandManager>();
-            //services.AddSingleton<IBrandDal, EfBrandDal>();
-            //services.AddSingleton<IColorService, ColorManager>();
-            //services.AddSingleton<IColorDal, EfColorDal>();
-            //services.AddSingleton<IUserService, UserManager>();
-            //services.AddSingleton<IUserDal, EfUserDal>();
-            //services.AddSingleton<ICustomerService, CustomerManager>();
-            //services.AddSingleton<ICustomerDal, EfCustomerDal>();
-            //services.AddSingleton<IRentalService, RentalManager>();
-            //services.AddSingleton<IRentalDal, EfRentalDal>();
+
+            services.AddDependencyResolvers(new ICoreModule[]
+            {
+                new CoreModule()
+            });
 
         }
 
