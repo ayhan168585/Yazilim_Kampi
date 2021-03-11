@@ -1,0 +1,19 @@
+<h3>Kiralık Otomobiller</h3>
+<div class="row">
+  <table class="table">
+    <thead>
+      <th>Marka</th>
+      <th>Renk</th>
+      <th>Model Yılı</th>
+      <th>Günlük Kira</th>
+      <th>Açıklama</th>
+    </thead>
+    <tr *ngFor="let car of carDetailDtos">
+      <td>{{car.brandName}}</td>
+      <td>{{car.colorName}}</td>
+      <td>{{car.modelYear}}</td>
+      <td>{{car.dailyPrice}}</td>
+      <td>{{car.description}}</td>
+    </tr>
+  </table>
+</div>

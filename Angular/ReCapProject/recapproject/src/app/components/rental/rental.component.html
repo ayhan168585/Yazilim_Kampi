@@ -1,0 +1,17 @@
+<h3>Kiradaki Otomobiller</h3>
+<div class="row">
+  <table class="table">
+    <thead>
+      <th>Marka</th>
+      <th>Müşteri</th>
+      <th>Kiralama Tarihi</th>
+      <th>Dönüş Tarihi</th>
+    </thead>
+    <tr *ngFor="let rental of rentals">
+      <td>{{ rental.brandName }}</td>
+      <td>{{ rental.companyName }}</td>
+      <td>{{ rental.rentDate }}</td>
+      <td>{{ rental.returnDate }}</td>
+    </tr>
+  </table>
+</div>
