@@ -47,6 +47,7 @@ namespace WebAPI
             });
             //services.AddSingleton<IProductService,ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();
+            services.AddCors();
 
         
             
@@ -81,6 +82,7 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder=>builder.WithOrigins("http://localhost:64366").AllowAnyHeader());
             app.UseHttpsRedirection();
 
             app.UseRouting();
