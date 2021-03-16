@@ -1,19 +1,69 @@
 <h3>Kiralık Otomobiller</h3>
 <div class="row">
+  <div class="card" *ngFor="let car of cars" style="width: 18rem">
+    <img [src]="car.imagePath" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ car.carId }}</h5>
+      <h5 class="card-title">{{ car.carName }}</h5>
+      <h5 class="card-title">{{ car.colorName }}</h5>
+      <h5 class="card-title">{{ car.brandName }} {{ car.modelYear }}</h5>
+      <h5 class="card-title">{{ car.dailyPrice }} TL</h5>
+      <p class="card-text">{{ car.description }}</p>
+      <div class="card-body">
+        <section style="float:left">
+          <button routerLink="/cars/details/{{car.carId}}" type="button" class="btn btn-primary">İncele</button>
+        </section>
+        <section style="float: right">
+          <button type="button" class="btn btn-success">Kirala</button>
+        </section>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<!-- <div class="row">
   <table class="table">
     <thead>
       <th>Marka</th>
       <th>Renk</th>
       <th>Model Yılı</th>
       <th>Günlük Kira</th>
+      <th>Image</th>
       <th>Açıklama</th>
     </thead>
-    <tr *ngFor="let car of carDetailDtos">
-      <td>{{car.brandName}}</td>
-      <td>{{car.colorName}}</td>
-      <td>{{car.modelYear}}</td>
-      <td>{{car.dailyPrice}}</td>
-      <td>{{car.description}}</td>
+    <tr *ngFor="let car of cars">
+      <td>{{ car.brandName }}</td>
+      <td>{{ car.colorName }}</td>
+      <td>{{ car.modelYear }}</td>
+      <td>{{ car.dailyPrice }}</td>
+      <td>{{ car.imagePath }}</td>
+      <td>{{ car.description }}</td>
     </tr>
   </table>
-</div>
+</div> -->
+
+<!-- <div class="row">
+  <div *ngFor="let car of cars" class="card" style="width: 20rem;">
+    <img [src]="car.imagePath" class="card-img-top" routerLink="/cars" alt="{{car.description}} Image" width="auto" height="auto">
+    <div  class="card-body">
+    <h5 class="card-title">{{car.description}}</h5>
+    </div >
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Marka: {{car.brandName}}</li>
+      <li class="list-group-item">Renk: {{car.colorName}}</li>
+      <li class="list-group-item">Model Yılı: {{car.modelYear}}</li>
+      <li class="list-group-item">Fiyat: {{car.dailyPrice}} Türk Lirası</li>
+    </ul>
+    <div class="card-body">
+      <section style="float:left">
+        <button routerLink="/car/details/{{car.carId}}" type="button" class="btn btn-primary">Detaylar</button>
+      </section>
+      <section style="float: right">
+        <button type="button" class="btn btn-primary">Kirala</button>
+      </section>
+    </div>
+  </div>
+</div> -->
+
+
+

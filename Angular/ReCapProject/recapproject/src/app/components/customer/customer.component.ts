@@ -10,6 +10,7 @@ import { CustomerService } from 'src/app/services/customer.service';
 export class CustomerComponent implements OnInit {
 
   customers:Customer[]=[];
+  currentCustomer: Customer;
 
   constructor(private customerService:CustomerService) { }
 
@@ -21,6 +22,17 @@ export class CustomerComponent implements OnInit {
 this.customerService.getCustomer().subscribe(response=>{
   this.customers=response.data
 })
+  }
+  setCurrentCustomer(customer:Customer){
+    this.currentCustomer=customer;
+  }
+  getCurrentCustomerClass(customer:Customer){
+    if(customer==this.currentCustomer){
+      return "list-group-item active"
+    }
+    else{
+      return "list-group-item"
+    }
   }
 
 }

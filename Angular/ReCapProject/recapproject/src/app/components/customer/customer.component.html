@@ -2,5 +2,9 @@
   <h4>Müşteriler</h4>
 </thead>
 <ul class="list-group">
-  <li class="list-group-item" *ngFor="let customer of customers">{{customer.companyName}}</li>
+  <li (click)="setCurrentCustomer(customer)" 
+  routerLink="cars/rentals/customer/{{customer.userId}}"
+  [class]="getCurrentCustomerClass(customer)" 
+  *ngFor="let customer of customers">{{customer.companyName}}</li>
 </ul>
+<h4 *ngIf="currentCustomer"></h4>

@@ -1,4 +1,3 @@
-C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
@@ -49,6 +48,7 @@ C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll

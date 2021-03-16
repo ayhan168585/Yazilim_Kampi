@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Text;
 using Business.Abstract;
 using Business.BusinessAspects.Autofac;
@@ -51,6 +52,14 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(), Messages.CarListed);
         }
+        public IDataResult <List<CarDetailDto>> GetCarDetailsById(int carId)
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<CarDetailDto>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p=>p.Id==carId), Messages.CarListed);
+        }
 
         [CacheAspect]
         public IDataResult<Car> GetById(int id)
@@ -68,7 +77,7 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.BrandId == id), Messages.CarListedByBrand);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p=>p.BrandId==id), Messages.CarListedByBrand);
         }
 
         [CacheAspect]

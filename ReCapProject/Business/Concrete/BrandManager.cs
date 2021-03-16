@@ -48,10 +48,10 @@ namespace Business.Concrete
             return new SuccessDataResult<Brand>(_brandDal.Get(p => p.Id == id), Messages.BrandDetailListed);
         }
 
-        [SecuredOperation("admin")]
-        [CacheRemoveAspect("IBrandService.Get")]
-        [ValidationAspect(typeof(BrandValidator))]
-        [TransactionScopeAspect]
+        //[SecuredOperation("admin")]
+        //[CacheRemoveAspect("IBrandService.Get")]
+        //[ValidationAspect(typeof(BrandValidator))]
+        //[TransactionScopeAspect]
         public IResult Add(Brand brand)
         {
             IResult result = BusinessRules.Run(CheckIfBrandNameExist(brand.BrandName));

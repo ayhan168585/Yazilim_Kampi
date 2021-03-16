@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Business.Abstract;
 using Business.BusinessAspects.Autofac;
@@ -84,6 +85,15 @@ namespace Business.Concrete
         {
             _rentalDal.Delete(rental);
             return new SuccessResult(Messages.RentalDeleted);
+        }
+
+        public IDataResult<List<RentDetailDto>> GetByCustomer(int userId)
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult <List<RentDetailDto>> (Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<RentDetailDto>>(_rentalDal.GetDetailRental(p=>p.CustomerId==userId),Messages.RentalListedByCustomer);
         }
     }
 }
