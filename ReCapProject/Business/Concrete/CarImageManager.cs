@@ -22,7 +22,7 @@ namespace Business.Concrete
     {
         private ICarImageDal _carImageDal;
         private ICarService _carService;
-        string imagePath = @"..\WebAPI\Images\Cars\";
+        string imagePath = @"C:\Users\Ayhan Özer\Desktop\Yazilim_Kampi\Angular\ReCapProject\recapproject\src\assets\images";
         string[] imageExtensions = { ".jpg", ".jpeg", ".png", ".bmp" };
 
         public CarImageManager(ICarImageDal carImageDal, ICarService carService)

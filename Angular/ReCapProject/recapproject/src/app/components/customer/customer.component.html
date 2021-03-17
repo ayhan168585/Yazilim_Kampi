@@ -2,6 +2,7 @@
   <h4>Müşteriler</h4>
 </thead>
 <ul class="list-group">
+  <li [class]="getAllCustomerClass()" routerLink="/cars/rentals">Tüm Müşteriler</li>
   <li (click)="setCurrentCustomer(customer)" 
   routerLink="cars/rentals/customer/{{customer.userId}}"
   [class]="getCurrentCustomerClass(customer)" 

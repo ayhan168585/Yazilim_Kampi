@@ -34,5 +34,13 @@ this.customerService.getCustomer().subscribe(response=>{
       return "list-group-item"
     }
   }
+  getAllCustomerClass(){
+    if(!this.currentCustomer){
+      return "list-group-item active"
+    }
+    else{
+      return "list-group-item"
+    }
+  }
 
 }
