@@ -46,7 +46,7 @@
   <div *ngFor="let car of cars" class="card" style="width: 20rem;">
     <img [src]="car.imagePath" class="card-img-top" routerLink="/cars" alt="{{car.description}} Image" width="auto" height="auto">
     <div  class="card-body">
-    <h5 class="card-title">{{car.description}}</h5>
+    <h5 class="card-title">{{car.carName}}</h5>
     </div >
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Marka: {{car.brandName}}</li>

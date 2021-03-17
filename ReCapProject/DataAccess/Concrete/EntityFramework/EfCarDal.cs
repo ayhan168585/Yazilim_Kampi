@@ -20,8 +20,7 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from c in filter==null ? context.Cars:context.Cars.Where(filter)
                     join b in context.Brands on c.BrandId equals b.Id
                     join co in context.Colors on c.ColorId equals co.Id
-                    join ci in context.CarImages on c.Id equals ci.CarId
-                    
+                    //join ci in context.CarImages on c.Id equals ci.CarId
                     select new CarDetailDto
                     {
                         CarId = c.Id,
@@ -32,7 +31,7 @@ namespace DataAccess.Concrete.EntityFramework
                         CarName = c.CarName,
                         ModelYear = c.ModelYear,
                         DailyPrice = c.DailyPrice,
-                        ImagePath = ci.ImagePath,
+                        //ImagePath = ci.ImagePath,
                         Description = c.Description
                     };
                 return result.ToList();

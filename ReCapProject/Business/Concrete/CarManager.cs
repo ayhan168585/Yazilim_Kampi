@@ -71,23 +71,23 @@ namespace Business.Concrete
             return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id), Messages.CarDetailListed);
         }
         [CacheAspect]
-        public IDataResult<List<Car>> GetCarsByBrandId(int id)
+        public IDataResult<List<CarDetailDto>> GetCarsByBrandId(int id)
         {
             if (DateTime.Now.Hour == 22)
             {
-                return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
+                return new ErrorDataResult<List<CarDetailDto>>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p=>p.BrandId==id), Messages.CarListedByBrand);
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p=>p.BrandId==id), Messages.CarListedByBrand);
         }
 
         [CacheAspect]
-        public IDataResult<List<Car>> GetCarsByColorId(int id)
+        public IDataResult<List<CarDetailDto>> GetCarsByColorId(int id)
         {
             if (DateTime.Now.Hour == 22)
             {
-                return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
+                return new ErrorDataResult<List<CarDetailDto>>(Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.ColorId == id), Messages.CarListedByColor);
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p => p.ColorId == id), Messages.CarListedByColor);
         }
 
         [CacheAspect]
