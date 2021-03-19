@@ -1,14 +1,21 @@
 <h3>Kiralık Otomobiller</h3>
+<div class="mb-3">
+  <label for="filterText" class="form-label">Araç ara</label>
+  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Aracın adını giriniz">
+</div>
+<div *ngIf="filterText" class="alert alert-success">
+{{filterText}}  aradınız.
+</div>
 <div class="row">
   <div class="card" *ngFor="let car of cars" style="width: 18rem">
     <img [src]="car.imagePath | slice :76:134" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">Car ID:{{ car.carId }}</h5>
-      <h5 class="card-title">Araç Adı:{{ car.carName}}</h5>
+      <h5 class="card-title">Araç Adı:{{ car.carName | titlecase}}</h5>
       <!-- <h5 class="card-title">{{ car.imagePath | slice :76:134 }}</h5> -->
       <h5 class="card-title">Renk:{{ car.colorName }}</h5>
       <h5 class="card-title">Marka:{{ car.brandName }} {{ car.modelYear }}</h5>
-      <h5 class="card-title">Günlük Kira :{{ car.dailyPrice |currency :"TRY": "TRY": "3.2" }}</h5>
+      <h6 class="card-title">Günlük Kira(KDV Dahil) :{{ car.dailyPrice |vatAdded :18 |currency :"TRY": "TRY": "3.2" }}</h6>
       <p class="card-text">Açıklama:{{ car.description }}</p>
       <div class="card-body">
         <section style="float:right">
