@@ -1,5 +1,5 @@
 import { Car } from "./car";
-import { CarImaage } from "./carImage";
+import { CarImage } from "./carImage";
 
 export interface CarDetailDto{
    carId:number;

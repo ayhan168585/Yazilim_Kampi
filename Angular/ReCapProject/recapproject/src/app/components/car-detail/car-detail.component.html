@@ -1,5 +1,5 @@
   
-<h5><mark>ARAÇLAR</mark> </h5>
+<!-- <h5><mark>ARAÇLAR</mark> </h5>
 <style>
   .row{
     display: grid;
@@ -22,18 +22,42 @@
     <h5 class="card-title">{{car.description}}</h5>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><mark>Id</mark> : {{car.carId}}</li>
-    <li class="list-group-item"><mark>Marka</mark> : {{car.brandName}}</li>
-    <li class="list-group-item"><mark>Renk</mark> : {{car.colorName}}</li>
-    <li class="list-group-item"><mark>Model</mark> : {{car.modelYear}}</li>
-    <li class="list-group-item"><mark>Günlük Kira </mark>: {{car.dailyPrice}}</li>
+    <li class="list-group-item"><mark>Id:</mark>{{car.carId}}</li>
+    <li class="list-group-item"><mark>Marka</mark>{{car.brandName}}</li>
+    <li class="list-group-item"><mark>Renk</mark>{{car.colorName}}</li>
+    <li class="list-group-item"><mark>Model</mark>{{car.modelYear}}</li>
+    <li class="list-group-item"><mark>Günlük Kira </mark>{{car.dailyPrice}}</li>
   </ul>
   <div class="card-body" >
     <a href="#"  class="card-link btn btn-success">Kirala</a>
     <a href="#" routerLink = "cars/cardetails/{{car.carId}}"
      class="card-link btn btn-primary">İncele</a>
-  </div>
+  </div> -->
   
-</div> 
+<!-- </div> 
+</div> -->
+
+<div class="row">
+  <div class="card" *ngFor="let car of cars"  style="width: 18rem">
+    <img  [src]="car.imagePath | slice :76:134" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Car ID:{{ car.carId }}</h5>
+      <h5 class="card-title">Araç Adı:{{ car.carName}}</h5>
+      <!-- <h5 class="card-title">{{ car.imagePath | slice :76:134 }}</h5> -->
+      <h5 class="card-title">Renk:{{ car.colorName }}</h5>
+      <h5 class="card-title">Marka:{{ car.brandName }} {{ car.modelYear }}</h5>
+      <h5 class="card-title">Günlük Kira :{{ car.dailyPrice |currency :"TRY": "TRY": "1.2" }}</h5>
+      <p class="card-text">Açıklama:{{ car.description }}</p>
+      <div class="card-body">
+        <section style="float:right">
+          <button routerLink="/cars/details/{{car.carId}}" type="button" class="btn btn-primary">Kirala</button>
+        </section>
+        <!-- <section style="float: right">
+          <button type="button" class="btn btn-success">Kirala</button>
+        </section> -->
+      </div>
+     
+    </div>
+  </div>
 </div>
 

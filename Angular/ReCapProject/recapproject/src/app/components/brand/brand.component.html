@@ -2,7 +2,7 @@
   <h4>Markalar</h4>
 </thead>
 <ul class="list-group">
-  <li  [class]="getAllBrandClass()" routerLink="/cars">Tüm Markalar</li>
+  <li  [class]="getAllBrandClass()" routerLink="">Tüm Markalar</li>
   <li (click)="setCurrentBrand(brand)" 
   routerLink="/cars/brand/{{brand.id}}" 
   [class]="getCurrentBrandClass(brand)" 
