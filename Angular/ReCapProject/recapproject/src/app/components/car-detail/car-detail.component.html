@@ -50,7 +50,7 @@
       <p class="card-text">Açıklama:{{ car.description }}</p>
       <div class="card-body">
         <section style="float:right">
-          <button routerLink="/cars/details/{{car.carId}}" type="button" class="btn btn-primary">Kirala</button>
+          <button (click)="addToRent(car)" type="button" class="btn btn-success">Kirala</button>
         </section>
         <!-- <section style="float: right">
           <button type="button" class="btn btn-success">Kirala</button>

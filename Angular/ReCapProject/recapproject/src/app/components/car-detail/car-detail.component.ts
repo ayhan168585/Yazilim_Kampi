@@ -57,5 +57,9 @@ export class CarDetailComponent implements OnInit {
       this.cars=response.data
     })
   }
+  addToRent(car:CarDetailDto){
+
+    console.log(car)
+  }
 
 }

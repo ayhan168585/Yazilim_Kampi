@@ -1,7 +1,16 @@
 <h3>Kiralık Otomobiller</h3>
+
 <div class="mb-3">
-  <label for="filterText" class="form-label">Araç,marka yada renk ara</label>
-  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Araç,marka veya renk adını giriniz">
+  <label for="filterText" class="form-label">Araç ara </label>
+  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Araç adı giriniz">
+</div>
+<div class="mb-3">
+  <label for="filterBrandText" class="form-label">Marka ara </label>
+  <input type="text" [(ngModel)]="filterBrandText" class="form-control" id="filterBrandText" placeholder="Marka adı giriniz">
+</div>
+<div class="mb-3">
+  <label for="filterColorText" class="form-label">Renk ara </label>
+  <input type="text" [(ngModel)]="filterColorText" class="form-control" id="filterColorText" placeholder="Renk adı giriniz">
 </div>
 <div *ngIf="filterText" class="alert alert-success">
 {{filterText}}  aradınız.
