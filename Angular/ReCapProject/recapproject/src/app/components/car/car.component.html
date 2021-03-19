@@ -1,13 +1,13 @@
 <h3>Kiralık Otomobiller</h3>
 <div class="mb-3">
-  <label for="filterText" class="form-label">Araç ara</label>
-  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Aracın adını giriniz">
+  <label for="filterText" class="form-label">Araç,marka yada renk ara</label>
+  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Araç,marka veya renk adını giriniz">
 </div>
 <div *ngIf="filterText" class="alert alert-success">
 {{filterText}}  aradınız.
 </div>
 <div class="row">
-  <div class="card" *ngFor="let car of cars" style="width: 18rem">
+  <div class="card" *ngFor="let car of cars | filterPipe : filterText | filterBrandPipe : filterBrandText | filterColorPipe : filterColorText" style="width: 18rem">
     <img [src]="car.imagePath | slice :76:134" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">Car ID:{{ car.carId }}</h5>
