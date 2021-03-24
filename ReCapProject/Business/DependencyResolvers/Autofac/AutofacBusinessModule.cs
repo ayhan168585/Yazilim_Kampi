@@ -34,6 +34,14 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfCarImageDal>().As<ICarImageDal>().SingleInstance();
             builder.RegisterType<AuthManager>().As<IAuthService>().SingleInstance();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>().SingleInstance();
+            builder.RegisterType<BankManager>().As<IBankService>().SingleInstance();
+            builder.RegisterType<EfBankDal>().As<IBankDal>().SingleInstance();
+            builder.RegisterType<CreditCardManager>().As<ICreditCardService>().SingleInstance();
+            builder.RegisterType<EfCreditCardDal>().As<ICreditCardDal>().SingleInstance();
+            builder.RegisterType<CreditCardProcessManager>().As<ICreditCardProcessService>().SingleInstance();
+            builder.RegisterType<EfCreditCardProcessDal>().As<ICreditCardProcessDal>().SingleInstance();
+        
+ 
 
 
            

@@ -47,7 +47,7 @@ namespace Business.Concrete
         }
 
 
-        [SecuredOperation("admin")]
+        //[SecuredOperation("admin")]
         [CacheRemoveAspect("IColorService.Get")]
         [TransactionScopeAspect]
         [ValidationAspect(typeof(ColorValidator))]

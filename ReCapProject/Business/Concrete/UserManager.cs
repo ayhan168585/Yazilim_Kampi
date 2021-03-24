@@ -48,7 +48,7 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
-        [SecuredOperation("admin")]
+        //[SecuredOperation("admin")]
         public IDataResult<List<User>> GetAll()
         {
             if (DateTime.Now.Hour == 22)

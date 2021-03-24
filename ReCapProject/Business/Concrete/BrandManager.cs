@@ -49,9 +49,9 @@ namespace Business.Concrete
         }
 
         //[SecuredOperation("admin")]
-        //[CacheRemoveAspect("IBrandService.Get")]
-        //[ValidationAspect(typeof(BrandValidator))]
-        //[TransactionScopeAspect]
+        [CacheRemoveAspect("IBrandService.Get")]
+        [ValidationAspect(typeof(BrandValidator))]
+        [TransactionScopeAspect]
         public IResult Add(Brand brand)
         {
             IResult result = BusinessRules.Run(CheckIfBrandNameExist(brand.BrandName));

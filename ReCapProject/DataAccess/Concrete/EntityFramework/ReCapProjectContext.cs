@@ -26,6 +26,10 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Rental> Rentals { get; set; }
         public DbSet<CarImage> CarImages { get; set; }
+        public DbSet<Bank> Banks { get; set; }
+        public DbSet<CreditCard> CreditCards { get; set; }
+        public DbSet<CreditCardProcess> CreditCardProcesses { get; set; }
+
        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

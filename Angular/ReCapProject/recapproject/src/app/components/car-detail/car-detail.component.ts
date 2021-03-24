@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Car } from 'src/app/models/car';
+import { ToastrService } from 'ngx-toastr';
 import { CarDetailDto } from 'src/app/models/carDetailDto';
 import { CarImage } from 'src/app/models/carImage';
 import { CarDetailService } from 'src/app/services/car-detail.service';
@@ -9,28 +9,31 @@ import { CarImageService } from 'src/app/services/car-image.service';
 @Component({
   selector: 'app-car-detail',
   templateUrl: './car-detail.component.html',
-  styleUrls: ['./car-detail.component.css']
+  styleUrls: ['./car-detail.component.css'],
 })
 export class CarDetailComponent implements OnInit {
-  cars:CarDetailDto[]=[];
-  carimages:CarImage[]=[];
-  imagePaths:string[]=[];
-  imageUrl="http://localhost:4200/WebAPI/Images/Cars/";
+  cars: CarDetailDto[] = [];
+  carimages: CarImage[] = [];
+  imagePaths: string[] = [];
+  imageUrl = 'http://localhost:4200/WebAPI/Images/Cars/';
 
-  constructor(private carService:CarDetailService,private activatedRoute:ActivatedRoute,private carImageService:CarImageService) { }
+  constructor(
+    private carService: CarDetailService,
+    private activatedRoute: ActivatedRoute,
+    private carImageService: CarImageService,
+    private toastrService: ToastrService
+  ) {}
 
-  ngOnInit(): void {this.activatedRoute.params.subscribe(params=>{
-    if(params["carId"]){
-      this.getByCarId(params["carId"]);
-    }
-    else{
-      this.getCarDetail();
-    }
-  })
-    
-
+  ngOnInit(): void {
+    this.activatedRoute.params.subscribe((params) => {
+      if (params['carId']) {
+        this.getByCarId(params['carId']);
+      } else {
+        this.getCarDetail();
       }
-  
+    });
+  }
+
   //  getCar(){
   //    this.carService.getCar().subscribe(response=>{
   //      this.cars=response.data
@@ -47,19 +50,25 @@ export class CarDetailComponent implements OnInit {
   //      this.carimages=response.data
   //    })
   //  }
-  getCarDetail(){
-    this.carService.getCarDetail().subscribe(response=>{
-      this.cars=response.data
-    })
+  getCarDetail() {
+    this.carService.getCarDetail().subscribe((response) => {
+      this.cars = response.data;
+    });
   }
-  getByCarId(carId:number){
-    this.carService.getByCarId(carId).subscribe(response=>{
-      this.cars=response.data
-    })
+  getByCarId(carId: number) {
+    this.carService.getByCarId(carId).subscribe((response) => {
+      this.cars = response.data;
+    });
   }
-  addToRent(car:CarDetailDto){
+  addToRent(car: CarDetailDto) {
+    if (car.carId === 1) {
+      this.toastrService.error(
 
-    console.log(car)
+        'Hata! Bu araç kiralanmaya uygun değil',
+        car.carName
+      )
+    } else {
+      this.toastrService.success('Araç kiralandı', car.carName);
+    }
   }
-
 }

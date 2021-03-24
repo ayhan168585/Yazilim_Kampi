@@ -1,0 +1,19 @@
+<h3>Yeni Renk Ekle</h3>
+<form [formGroup]="colorAddForm" class="mb-3">
+  <label class="form-label" for="colorName">Renk Adı</label>
+  <div class="mb-3">
+    <input
+      type="text"
+      id="colorName"
+      formControlName="colorName"
+      class="form-control"
+      placeholder="Araç rengi giriniz"
+      name="colorName"
+    />
+    <!-- <div class="alert alert-danger" 
+    *ngIf="brandAddForm.get('brandName').hasError('required') && brandAddForm.get('brandName').dirty">Marka adı zorunludur</div> -->
+  </div>
+  <div class="mb-3">
+<button class="btn btn-fill btn-success " (click)="add()">Ekle</button>
+  </div>
+</form>

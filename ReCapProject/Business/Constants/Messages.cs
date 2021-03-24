@@ -71,5 +71,25 @@ namespace Business.Constants
         public static string CreatedAccessToken = "Access token başarıyla oluşturuldu";
         public static string AuthorizationDenied = "Yetkiniz yok";
         public static string RentalListedByCustomer = "Seçtiğiniz müşterinin kiralamaları listelendi.";
+        public static string BanksListed = "Bankalar listelendi";
+        public static string BankDetailListed = "Seçtiğiniz bankanın detayı listelendi";
+        public static string BankAdded = "Banka eklendi";
+        public static string BankUpdated = "Banka güncellendi";
+        public static string BankDeleted = "Banka silindi";
+        public static string CreditCardsListed = "Kredi kartları listelendi";
+        public static string CreditCardDetailListed = "Seçtiğiniz kredi kartının detayı listelendi";
+        public static string CreditCardListedByBank = "Seçtiğiniz bankaya göre kredi kartları listelendi";
+        public static string CreditCardAdded = "Kredi kart eklendi";
+        public static string CreditCardUpdated = "Kredi kart güncellendi";
+        public static string CreditCardDeleted = "Kredi kart silindi";
+        public static string CreditCardProcessesListed = "Kredi kartı işlemleri listelendi";
+        public static string CreditCardProcessByProcessIdListed = "Yapılan kredi kartı işlem detayı listelendi";
+        public static string CreditCardProcessByCreditCardIdListed = "Seçilen kredi kartının işlemleri listelendi";
+        public static string CreditCardProcessAdded = "Kredi kartı işlemi eklendi";
+        public static string CreditCardProcessUpdated = "Kredi kartı işlemi güncellendi";
+        public static string CreditCardProcessDeleted = "Kredi kartı işlemi silindi";
+
+        public static string CreditCardProcessDetailByBankListed =
+            "Seçilen Bankanın kredi kartının işlemleri listelendi";
     }
 }

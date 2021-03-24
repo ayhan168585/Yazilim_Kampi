@@ -1,0 +1,19 @@
+<h3>Yeni Marka Ekle</h3>
+<form [formGroup]="brandAddForm" class="mb-3">
+  <label class="form-label" for="brandName">Marka Adı</label>
+  <div class="mb-3">
+    <input
+      type="text"
+      id="brandName"
+      formControlName="brandName"
+      class="form-control"
+      placeholder="Araç markası giriniz"
+      name="brandName"
+    />
+    <!-- <div class="alert alert-danger" 
+    *ngIf="brandAddForm.get('brandName').hasError('required') && brandAddForm.get('brandName').dirty">Marka adı zorunludur</div> -->
+  </div>
+  <div class="mb-3">
+<button class="btn btn-fill btn-success " (click)="add()">Ekle</button>
+  </div>
+</form>

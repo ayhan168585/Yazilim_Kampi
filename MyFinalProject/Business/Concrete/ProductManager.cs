@@ -83,24 +83,19 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Product>(_productDal.Get(p=>p.ProductId==productId));
         }
-        [SecuredOperation("product.add,admin")]
-        [ValidationAspect(typeof(ProductValidator))]
-
+        //[SecuredOperation("product.add,admin")]
+        [ValidationAspect(typeof(ProductValidator), Priority = 1)]
         [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
-            //Business codes
-            //Validation
-            IResult result=BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
-                CheckIfProductCountOfCategoryCorrect(product.CategoryId),CheckIfCategoryLimitExceded());
-            if (result!=null)
+            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName), CheckIfCategoryIsEnabled());
+
+            if (result != null)
             {
                 return result;
             }
-            
-                    _productDal.Add(product);
-                    return new SuccessResult(Messages.ProductAdded);
-            
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductAdded);
         }
         [ValidationAspect(typeof(ProductValidator))]
 
@@ -151,5 +146,16 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+        private IResult CheckIfCategoryIsEnabled()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Data.Count < 10)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
+            }
+
+            return new SuccessResult();
+        }
+
     }
 }

@@ -1,11 +1,13 @@
-<thead>
-  <h4>Renkler</h4>
-</thead>
-<ul class="list-group">
-  <li [class]="getAllColorClass()" routerLink="/cars">Tüm Renkler</li>
-  <li (click)="setCurrentColor(color)" 
-  routerLink="/cars/color/{{color.id}}" 
-  [class]="getCurrentColorClass(color)" 
-  *ngFor="let color of colors">{{color.colorName}}</li>
-</ul>
+<div class="position-sticky pt-3">
+  <nav class="nav flex-column">
+    <a routerLink="/cars" class="p-2 text-muted">Tüm Renkler</a>
+    <a
+      (click)="setCurrentColor(color)"
+      *ngFor="let color of colors"
+      routerLink="/cars/color/{{ color.id }}"
+      class="p-2 text-muted"
+      >{{ color.colorName }}</a
+    >
+  </nav>
+</div>
 <h5 *ngIf="currentColor"></h5>

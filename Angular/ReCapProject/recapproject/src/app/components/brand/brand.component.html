@@ -1,13 +1,13 @@
-<thead>
-  <h4>Markalar</h4>
-</thead>
-<ul class="list-group">
-  <li  [class]="getAllBrandClass()" routerLink="">Tüm Markalar</li>
-  <li (click)="setCurrentBrand(brand)" 
-  routerLink="/cars/brand/{{brand.id}}" 
-  [class]="getCurrentBrandClass(brand)" 
-  *ngFor="let brand of brands">{{brand.brandName}}</li>
-</ul>
+<div class="nav-scroller py-1 mb-2">
+  <nav class="nav d-flex">
+    <a routerLink="/cars" class="p-2 text-muted">Tüm Markalar</a>
+    <a
+      (click)="setCurrentBrand(brand)"
+      *ngFor="let brand of brands"
+      routerLink="/cars/brand/{{ brand.id }}"
+      class="p-2 text-muted"
+      >{{ brand.brandName }}</a
+    >
+  </nav>
+</div>
 <h5 *ngIf="currentBrand"></h5>
-
-

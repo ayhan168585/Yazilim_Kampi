@@ -2,16 +2,36 @@
 <div class="row">
   <table class="table">
     <thead>
+      <th>Araç Adı</th>
       <th>Marka</th>
-      <th>Müşteri</th>
+       <th>Müşteri Adı Soyadı</th>
+      <th>Şirket</th>
       <th>Kiralama Tarihi</th>
       <th>Dönüş Tarihi</th>
     </thead>
     <tr *ngFor="let rental of rentals">
+      <td>{{ rental.carName }}</td>
       <td>{{ rental.brandName }}</td>
+      <td>{{ rental.firstName }} {{rental.lastName}}</td>
       <td>{{ rental.companyName }}</td>
       <td>{{ rental.rentDate }}</td>
       <td>{{ rental.returnDate }}</td>
     </tr>
   </table>
 </div>
+
+
+  <!-- <div class="col col-4">
+      <select [(ngModel)]="colorFilter" class="form-select" aria-label="Default select example">
+          <option *ngFor="let color of colors" [value]="color.id" [selected]="getSelectedColor(color.id)"  >{{color.colorName}}</option>
+        </select>
+  </div>
+  <div class="col col-2">
+      <a 
+      routerLink="/cars/filter/{{brandFilter}}/{{colorFilter}}" class="btn btn-success">Filtrele</a>
+      </div>
+      <div class="col col-2">
+          <a 
+          routerLink="/cars" class="btn btn-danger">Temizle</a>
+      </div> -->
+<!-- </div> -->

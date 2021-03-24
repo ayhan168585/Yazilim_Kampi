@@ -1,0 +1,122 @@
+<!-- <h3>Yeni Araç Ekle</h3>
+<form [formGroup]="carAddForm" class="mb-3"> -->
+    <!-- <div class="mb-3">
+        <label class="form-label" for="brandId">Marka Adı</label>
+        <div class="mb-3">
+          <select
+            required id="brandId"
+            formControlName="brandId"
+            class="form-control"
+            name="brandId">
+            <option *ngFor="let brand of brands" [value]="brand.id">{{brand.brandName}}</option>
+          </select>
+    
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="brandId">Renk Adı</label>
+        <div class="mb-3">
+          <select
+            required id="colorId"
+            formControlName="colorId"
+            class="form-control"
+            name="colorId">
+            <option *ngFor="let color of colors" [value]="color.id">{{color.colorName}}</option>
+          </select>
+      
+        </div>
+    </div> -->
+    <h3>Yeni Araç Ekle</h3>
+    <form [formGroup]="carAddForm" class="mb-3">
+    <div class="mb-3">
+        <label class="form-label" for="brandId">Marka ID</label>
+        <div class="mb-3">
+            <input
+            type="number"
+            id="brandId"
+            formControlName="brandId"
+            class="form-control"
+            placeholder="Marka Id giriniz"
+            name="brandId"
+          />
+
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="colorId">Renk ID</label>
+        <div class="mb-3">
+            <input
+            type="number"
+            id="colorId"
+            formControlName="colorId"
+            class="form-control"
+            placeholder="Renk Id giriniz"
+            name="colorId"
+          />
+
+        </div>
+    </div>
+
+     <div class="mb-3">
+        <label class="form-label" for="carName">Araç Adı</label>
+        <div class="mb-3">
+            <input
+            type="text"
+            id="carName"
+            formControlName="carName"
+            class="form-control"
+            placeholder="Araç adı giriniz"
+            name="carName"
+          />
+
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="modelYear">Model Yılı</label>
+        <div class="mb-3">
+            <input
+            type="number"
+            id="modelYear"
+            formControlName="modelYear"
+            class="form-control"
+            placeholder="Model yılı giriniz"
+            name="modelYear"
+          />
+       
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="dailyPrice">Günlük kira</label>
+        <div class="mb-3">
+            <input
+            type="number"
+            id="dailyPrice"
+            formControlName="dailyPrice"
+            class="form-control"
+            placeholder="Günlük kira giriniz"
+            name="dailyPrice"
+          />
+  
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="description">Açıklama</label>
+        <div class="mb-3">
+            <input
+            type="text"
+            id="description"
+            formControlName="description"
+            class="form-control"
+            placeholder="Açıklama giriniz"
+            name="description"
+          />
+    
+        </div>
+    </div>
+ 
+  <div class="mb-3">
+<button class="btn btn-fill btn-success " (click)="add()">Ekle</button>
+  </div>
+</form>

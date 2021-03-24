@@ -17,8 +17,8 @@ export class RentalService {
     let newPath=this.apiUrl+"rentals/getrentaldetail"
     return this.httpClient.get<ListResponseModel<RentDetailDto>>(newPath)
   }
-  GetByCustomer(userId:number):Observable<ListResponseModel<RentDetailDto>>{
-    let newPath=this.apiUrl+"rentals/getbycustomer?userId="+userId
+  GetByCustomer(id:number):Observable<ListResponseModel<RentDetailDto>>{
+    let newPath=this.apiUrl+"rentals/getbycustomer?customerid="+id
     return this.httpClient.get<ListResponseModel<RentDetailDto>>(newPath)
   }
 

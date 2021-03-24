@@ -56,7 +56,7 @@ namespace Business.Concrete
             return new SuccessDataResult<Rental>(_rentalDal.Get(p => p.Id == id), Messages.GetRentDetail);
         }
 
-        [SecuredOperation("admin")]
+        //[SecuredOperation("admin")]
         [CacheRemoveAspect("IRentalService.Get")]
         [TransactionScopeAspect]
         [ValidationAspect(typeof(RentalValidator))]
@@ -87,13 +87,13 @@ namespace Business.Concrete
             return new SuccessResult(Messages.RentalDeleted);
         }
 
-        public IDataResult<List<RentDetailDto>> GetByCustomer(int userId)
+        public IDataResult<List<RentDetailDto>> GetByCustomer(int customerId)
         {
             if (DateTime.Now.Hour == 22)
             {
                 return new ErrorDataResult <List<RentDetailDto>> (Messages.MaintenanceTime);
             }
-            return new SuccessDataResult<List<RentDetailDto>>(_rentalDal.GetDetailRental(p=>p.CustomerId==userId),Messages.RentalListedByCustomer);
+            return new SuccessDataResult<List<RentDetailDto>>(_rentalDal.GetDetailRental(p=>p.CustomerId==customerId),Messages.RentalListedByCustomer);
         }
     }
 }
