@@ -1,13 +1,25 @@
 <div class="position-sticky pt-3">
   <nav class="nav flex-column">
-    <a routerLink="/cars" class="p-2 text-muted">Tüm Renkler</a>
-    <a
-      (click)="setCurrentColor(color)"
-      *ngFor="let color of colors"
-      routerLink="/cars/color/{{ color.id }}"
-      class="p-2 text-muted"
-      >{{ color.colorName }}</a
-    >
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/cars">
+          <span data-feather="file"></span>
+          Tüm Renkler
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLink="/cars/brand-register"
+          (click)="setCurrentColor(color)"
+          *ngFor="let color of colors"
+          routerLink="/cars/color/{{ color.id }}"
+        >
+          <span data-feather="file"></span>
+          {{ color.colorName }}
+        </a>
+      </li>
+    </ul>
   </nav>
 </div>
 <h5 *ngIf="currentColor"></h5>

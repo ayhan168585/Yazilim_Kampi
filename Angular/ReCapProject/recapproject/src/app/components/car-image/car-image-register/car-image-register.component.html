@@ -1,0 +1,47 @@
+<h3>Araç için İmaj Ekle</h3>
+<form [formGroup]="imageAddForm" class="mb-3">
+  <div class="mb-3">
+    <label class="form-label" for="carId">Araç Adı</label>
+    <div class="mb-3">
+      <select
+        required
+        id="carId"
+        formControlName="carId"
+        class="form-control"
+        name="carId"
+      >
+        <option *ngFor="let car of cars" [ngValue]="car.id">
+          {{ car.carName }}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label" for="imagePath">İmage dosyası</label>
+    <div class="mb-3">
+        <div class="mb-3">
+            <label class="form-label" for="imagePath">İmaj yükle</label>
+            <input type="file" class="form-control" id="imagePath">
+          </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label" for="date">İmage Tarihi</label>
+    <div class="mb-3">
+      <input
+        type="date"
+        id="date"
+        formControlName="date"
+        class="form-control"
+        placeholder="İmaj yolu giriniz."
+        name="date"
+      />
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <button class="btn btn-fill btn-success" (click)="add()">Ekle</button>
+  </div>
+</form>

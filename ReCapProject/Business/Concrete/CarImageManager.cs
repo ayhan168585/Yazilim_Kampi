@@ -51,9 +51,9 @@ namespace Business.Concrete
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId).ToList(), Messages.CarImageDetailListed);
         }
 
-        [SecuredOperation("admin")]
+        //[SecuredOperation("admin")]
         [CacheRemoveAspect("ICarImageService.Get")]
-        [ValidationAspect(typeof(BrandValidator))]
+        //[ValidationAspect(typeof(BrandValidator))]
         [TransactionScopeAspect]
         public IResult Add(CarImage carImage, IFormFile file)
         {

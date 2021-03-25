@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { CarImage } from '../models/carImage';
 import { ListResponseModel } from '../models/listResponseModel';
+import { ResponseModel } from '../models/responseModel';
 
 @Injectable({
   providedIn: 'root'
@@ -20,5 +21,9 @@ return this.httpClient.get<ListResponseModel<CarImage>>(newPath)
   getCarImagesById(carId:number):Observable<ListResponseModel<CarImage>>{
     let newPath=this.apiUrl+"carimages/getbycarid?carid="+carId
     return this.httpClient.get<ListResponseModel<CarImage>>(newPath)
+  }
+
+  add(carImage:CarImage):Observable<ResponseModel>{
+    return this.httpClient.post<ResponseModel>(this.apiUrl+"carimages/add",carImage)
   }
 }

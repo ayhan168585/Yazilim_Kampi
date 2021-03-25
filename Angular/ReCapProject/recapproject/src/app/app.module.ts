@@ -25,6 +25,8 @@ import { UserComponent } from './components/user/user.component';
 import { BrandRegisterComponent } from './components/brand/brand-register/brand-register.component';
 import { ColorRegisterComponent } from './components/color/color-register/color-register.component';
 import { CarRegisterComponent } from './components/car/car-register/car-register.component';
+import { CarImageComponent } from './components/car-image/car-image.component';
+import { CarImageRegisterComponent } from './components/car-image/car-image-register/car-image-register.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { CarRegisterComponent } from './components/car/car-register/car-register
     UserComponent,
     BrandRegisterComponent,
     ColorRegisterComponent,
-    CarRegisterComponent
+    CarRegisterComponent,
+    CarImageComponent,
+    CarImageRegisterComponent
   ],
   imports: [
     BrowserModule,

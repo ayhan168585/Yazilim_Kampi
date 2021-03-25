@@ -1,6 +1,6 @@
-<!-- <h3>Yeni Araç Ekle</h3>
-<form [formGroup]="carAddForm" class="mb-3"> -->
-    <!-- <div class="mb-3">
+<h3>Yeni Araç Ekle</h3>
+<form [formGroup]="carAddForm" class="mb-3">
+    <div class="mb-3">
         <label class="form-label" for="brandId">Marka Adı</label>
         <div class="mb-3">
           <select
@@ -8,7 +8,7 @@
             formControlName="brandId"
             class="form-control"
             name="brandId">
-            <option *ngFor="let brand of brands" [value]="brand.id">{{brand.brandName}}</option>
+            <option *ngFor="let brand of brands" [ngValue]="brand.id">{{brand.brandName}}</option>
           </select>
     
         </div>
@@ -21,42 +21,12 @@
             formControlName="colorId"
             class="form-control"
             name="colorId">
-            <option *ngFor="let color of colors" [value]="color.id">{{color.colorName}}</option>
+            <option *ngFor="let color of colors" [ngValue]="color.id">{{color.colorName}}</option>
           </select>
       
         </div>
-    </div> -->
-    <h3>Yeni Araç Ekle</h3>
-    <form [formGroup]="carAddForm" class="mb-3">
-    <div class="mb-3">
-        <label class="form-label" for="brandId">Marka ID</label>
-        <div class="mb-3">
-            <input
-            type="number"
-            id="brandId"
-            formControlName="brandId"
-            class="form-control"
-            placeholder="Marka Id giriniz"
-            name="brandId"
-          />
-
-        </div>
     </div>
-    <div class="mb-3">
-        <label class="form-label" for="colorId">Renk ID</label>
-        <div class="mb-3">
-            <input
-            type="number"
-            id="colorId"
-            formControlName="colorId"
-            class="form-control"
-            placeholder="Renk Id giriniz"
-            name="colorId"
-          />
-
-        </div>
-    </div>
-
+   
      <div class="mb-3">
         <label class="form-label" for="carName">Araç Adı</label>
         <div class="mb-3">
